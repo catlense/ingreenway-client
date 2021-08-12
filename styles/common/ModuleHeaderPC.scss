@@ -1,0 +1,35 @@
+@import "vars.scss";
+header.pc {
+    position: fixed;
+    width: 100%;
+    transition: margin.3s;
+    .up-line {
+        height: 32px;
+        border-bottom: 1px solid #eee;
+        display: flex;
+    }
+    .left_links {
+        display: flex;
+        align-items: center;
+        a:last-child {
+            color: $primaryGreenColor;
+        }
+    }
+    .right_links {
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+    }
+    a {
+        display: block;
+        margin-right: 25px;
+        text-decoration: none;
+        font-size: 14px;
+        color: $blackText;
+        transition: color.2s;
+        cursor: pointer;
+        &:hover {
+            color: $primaryGreenColor;
+        }
+    }
+}

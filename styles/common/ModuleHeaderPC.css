@@ -1,0 +1,53 @@
+header.pc {
+  position: fixed;
+  width: 100%;
+  -webkit-transition: margin 0.3s;
+  transition: margin 0.3s;
+}
+
+header.pc .up-line {
+  height: 32px;
+  border-bottom: 1px solid #eee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header.pc .left_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header.pc .left_links a:last-child {
+  color: #74c044;
+}
+
+header.pc .right_links {
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header.pc a {
+  display: block;
+  margin-right: 25px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #323232;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+  cursor: pointer;
+}
+
+header.pc a:hover {
+  color: #74c044;
+}
+/*# sourceMappingURL=ModuleHeaderPC.css.map */

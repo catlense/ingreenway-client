@@ -1,0 +1,149 @@
+.flash {
+  width: 100%;
+  height: 48px;
+  background: url(/static/images/backgrounds/flash.png) center no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: height 0.3s;
+  transition: height 0.3s;
+  overflow: hidden;
+  position: fixed;
+}
+
+.flash.flash_hidden {
+  height: 0;
+}
+
+.flash .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flash .texts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .flash .texts {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .flash .texts {
+    width: 100%;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.flash .remains {
+  font-weight: bold;
+  color: white;
+}
+
+.flash-title {
+  font-size: 20px;
+  color: white;
+  letter-spacing: 3px;
+  height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 768px) {
+  .flash-title {
+    text-align: center;
+  }
+}
+
+.countdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 768px) {
+  .countdown {
+    display: none;
+  }
+}
+
+.countdown .timer {
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.countdown .timer span {
+  font-size: 21px;
+  width: 32px;
+  height: 32px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.countdown .timer span:not(:first-child)::before {
+  content: ":";
+  margin-left: -52px;
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  font-family: "Roboto";
+  margin-top: -2px;
+}
+
+.close-flash {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.close-flash i {
+  font-size: 24px;
+  color: white;
+}
+/*# sourceMappingURL=ModuleFlash.css.map */
