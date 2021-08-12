@@ -13,7 +13,7 @@ header.pc .up-line {
   display: flex;
 }
 
-header.pc .left_links {
+header.pc .up-line .left_links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,11 +22,11 @@ header.pc .left_links {
           align-items: center;
 }
 
-header.pc .left_links a:last-child {
+header.pc .up-line .left_links a:last-child {
   color: #74c044;
 }
 
-header.pc .right_links {
+header.pc .up-line .right_links {
   margin-left: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -36,7 +36,7 @@ header.pc .right_links {
           align-items: center;
 }
 
-header.pc a {
+header.pc .up-line a {
   display: block;
   margin-right: 25px;
   text-decoration: none;
@@ -47,7 +47,189 @@ header.pc a {
   cursor: pointer;
 }
 
-header.pc a:hover {
+header.pc .up-line a:hover {
   color: #74c044;
+}
+
+header.pc .up-line .country-selector {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header.pc .up-line .country-selector .flag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header.pc .up-line .country-selector .flag img {
+  height: 100%;
+  max-height: 100%;
+  margin-right: 8px;
+}
+
+header.pc .up-line .country-selector .country {
+  font-size: 14px;
+  color: #323232;
+  cursor: pointer;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header.pc .main-content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header.pc .main-content .logo img {
+  height: 42px;
+}
+
+header.pc .main-content .right-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header.pc .main-content .right-icons img,
+header.pc .main-content .right-icons svg {
+  width: 24px;
+  height: 24px;
+  fill: #323232;
+  -webkit-transition: fill 0.3s;
+  transition: fill 0.3s;
+  cursor: pointer;
+  margin-left: 25px;
+}
+
+header.pc .main-content .right-icons img:hover,
+header.pc .main-content .right-icons svg:hover {
+  fill: #74c044;
+}
+
+header.pc .categories {
+  width: 100%;
+  background: #fdfdfd;
+  height: 60px;
+}
+
+header.pc .categories .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+header.pc .categories ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #323232;
+  height: 100%;
+}
+
+header.pc .categories ul > li {
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+header.pc .categories ul > li a {
+  font-size: 12px;
+  text-decoration: none;
+  display: block;
+  line-height: 60px;
+  color: #323232;
+  letter-spacing: 0.03em;
+  position: relative;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+header.pc .categories ul > li a:after {
+  content: "";
+  display: block;
+  height: 2px;
+  border-radius: 10px;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: .4s -webkit-transform;
+  transition: .4s -webkit-transform;
+  -webkit-transition: .4s transform;
+  transition: .4s transform;
+  -webkit-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+  background: #64A63B;
+  opacity: .9;
+  position: absolute;
+  bottom: 0px;
+  left: 0.5%;
+  width: 99%;
+  z-index: 333;
+}
+
+header.pc .categories ul > li a:hover:after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+header.pc .categories ul > li a:hover {
+  color: #74c044;
+}
+
+header.pc .categories ul > li a:hover .down-block__categories-subcategories {
+  display: block;
+  opacity: 1;
+  height: auto;
+  visibility: visible;
+}
+
+header.pc .categories ul li {
+  list-style: none;
 }
 /*# sourceMappingURL=ModuleHeaderPC.css.map */

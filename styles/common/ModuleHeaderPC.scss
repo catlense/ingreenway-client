@@ -7,29 +7,157 @@ header.pc {
         height: 32px;
         border-bottom: 1px solid #eee;
         display: flex;
-    }
-    .left_links {
-        display: flex;
-        align-items: center;
-        a:last-child {
-            color: $primaryGreenColor;
+        .left_links {
+            display: flex;
+            align-items: center;
+            a:last-child {
+                color: $primaryGreenColor;
+            }
+        }
+        .right_links {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+        }
+        a {
+            display: block;
+            margin-right: 25px;
+            text-decoration: none;
+            font-size: 14px;
+            color: $blackText;
+            transition: color.2s;
+            cursor: pointer;
+            &:hover {
+                color: $primaryGreenColor;
+            }
+        }
+        .country-selector {
+            display: flex;
+            align-items: center;
+            .flag {
+                display: flex;
+                align-items: center;
+                img {
+                    height: 100%;
+                    max-height: 100%;
+                    margin-right: 8px;
+                }
+            }
+            .country {
+                font-size: 14px;
+                color: $blackText;
+                cursor: pointer;
+                font-weight: 500;
+                display: flex;
+                align-items: center;
+            }
         }
     }
-    .right_links {
-        margin-left: auto;
+    .main-content {
+        width: 100%;
         display: flex;
+        height: 60px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         align-items: center;
+        justify-content: space-between;
+        .logo {
+            img {
+                height: 42px;
+            }
+        }
+        .right-icons {
+            display: flex;
+            img,
+            svg {
+                width: 24px;
+                height: 24px;
+                fill: $blackText;
+                transition: fill.3s;
+                cursor: pointer;
+                margin-left: 25px;
+                &:hover {
+                    fill: $primaryGreenColor;
+                }
+            }
+        }
     }
-    a {
-        display: block;
-        margin-right: 25px;
-        text-decoration: none;
-        font-size: 14px;
-        color: $blackText;
-        transition: color.2s;
-        cursor: pointer;
-        &:hover {
-            color: $primaryGreenColor;
+    .categories {
+        width: 100%;
+        background: #fdfdfd;
+        height: 60px;
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $blackText;
+            height: 100%;
+            >li {
+                text-transform: uppercase;
+                font-weight: 500;
+                margin-left: 10px;
+                margin-right: 10px;
+                display: flex;
+                align-items: center;
+                height: 100%;
+                a {
+                    font-size: 12px;
+                    text-decoration: none;
+                    display: block;
+                    line-height: 60px;
+                    color: $blackText;
+                    letter-spacing: 0.03em;
+                    position: relative;
+                    transition: color.2s;
+                    &:after {
+                        content: "";
+                        display: block;
+                        height: 2px;
+                        border-radius: 10px;
+                        -webkit-transform: scaleX(0);
+                        -ms-transform: scaleX(0);
+                        transform: scaleX(0);
+                        -webkit-transition: .4s -webkit-transform;
+                        -o-transition: .4s -webkit-transform;
+                        transition: .4s -webkit-transform;
+                        -webkit-transition: .4s transform;
+                        -o-transition: .4s transform;
+                        transition: .4s transform;
+                        -webkit-transform-origin: 100% 0;
+                        -ms-transform-origin: 100% 0;
+                        transform-origin: 100% 0;
+                        background: $primaryGreenColorDark;
+                        opacity: .9;
+                        position: absolute;
+                        bottom: 0px;
+                        left: 0.5%;
+                        width: 99%;
+                        z-index: 333;
+                    }
+                    &:hover:after {
+                        transform: scaleX(1);
+                        transform-origin: left;
+                    }
+                    &:hover {
+                        color: $primaryGreenColor;
+                        .down-block__categories-subcategories {
+                            display: block;
+                            opacity: 1;
+                            height: auto;
+                            visibility: visible;
+                        }
+                    }
+                }
+            }
+            li {
+                list-style: none;
+            }
         }
     }
 }
