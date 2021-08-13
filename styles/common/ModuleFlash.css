@@ -13,6 +13,7 @@
   transition: height 0.3s;
   overflow: hidden;
   position: fixed;
+  z-index: 999;
 }
 
 .flash.flash_hidden {

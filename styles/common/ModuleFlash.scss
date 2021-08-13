@@ -8,6 +8,7 @@
     transition: height.3s;
     overflow: hidden;
     position: fixed;
+    z-index: 999;
     &.flash_hidden {
         height: 0;
     }
