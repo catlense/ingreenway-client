@@ -6,13 +6,18 @@ body {
 .container {
     max-width: 1440px;
     margin: 0 auto;
-    width: calc(100% - 30px);
-    padding-right: 15px;
-    padding-left: 15px;
+    width: calc(100% - 60px);
+    padding-right: 30px;
+    padding-left: 30px;
     &.with-padding {
-        @media(min-width: 992px) {
+        @media (min-width: 992px) {
             padding: 30px 30px 140px 30px;
         }
+    }
+    @media (max-width: 768px) {
+        width: calc(100% - 30px);
+        padding-right: 15px;
+        padding-left: 15px;
     }
 }
 
