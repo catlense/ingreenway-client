@@ -4,7 +4,7 @@
         <div class="texts">
             <div class="font-bebas flash-title">Летние предложения</div>
             <div class="countdown">
-                <div class="font-roboto remains">осталось 3 дня</div>
+                <div class="font-roboto remains">осталось <span class="timer-day">3</span> дня</div>
                 <div class="timer font-bebas">
                     <span class="hour">04</span>
                     <span class="minutes">04</span>
@@ -17,4 +17,9 @@
         </div>
     </div>
 </div>
+<!-- Flash scripts -->
+<script src="/js/frontend/flash.js"></script>
+
+<!-- Flash styles -->
+<link rel="stylesheet" href="/styles/common/ModuleFlash.css">
 <?php endif; ?>

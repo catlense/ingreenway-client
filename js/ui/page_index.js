@@ -17,7 +17,7 @@ if (mainSlider) {
     })
 }
 
-if (slidesLabel && headerPc) {
+if (slidesLabel && headerPcHeight) {
     slidesLabel.forEach(element => {
         element.style.marginTop = `${headerPcHeight + flashHeight}px`
     })

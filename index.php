@@ -7,9 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Интернет-магазин</title>
 
-    <!-- Flash css -->
-    <link rel="stylesheet" href="/styles/common/ModuleFlash.css">
-
     <!-- Header PC css -->
     <link rel="stylesheet" href="/styles/common/ModuleHeaderPC.css">
 
@@ -61,7 +58,9 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-    <script src="/js/ui/flash.js"></script>
+    <!-- UI scripts -->
     <script src="/js/ui/page_index.js"></script>
+    <script src="/js/ui/flash.js"></script>
+
 </body>
 </html>
