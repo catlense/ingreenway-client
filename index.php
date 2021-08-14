@@ -54,6 +54,19 @@
         <div class="main-slider_pagination"></div>
     </div>
 
+    <div class="new-products font-gotham">
+        <div class="container indexBlock">
+            <h1>Новинки</h1>
+            <div class="new-products_slider swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <?php $product = []?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- SwiperJS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>

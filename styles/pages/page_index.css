@@ -84,4 +84,14 @@
 .main-slider a i {
   margin-left: 15px;
 }
+
+.indexBlock {
+  margin-top: 100px;
+}
+
+@media (max-width: 768px) {
+  .indexBlock {
+    margin-top: 80px;
+  }
+}
 /*# sourceMappingURL=page_index.css.map */

@@ -32,3 +32,16 @@ body {
 .font-gotham {
     font-family: "Gotham Pro", sans-serif;
 }
+
+h1 {
+    font-weight: 400;
+    font-size: 36px;
+    color: #323232;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    font-weight: normal;
+    @media(max-width: 1023px) {
+        font-size: 24px;
+    }
+}

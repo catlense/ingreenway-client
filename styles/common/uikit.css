@@ -36,4 +36,25 @@ body {
 .font-gotham {
   font-family: "Gotham Pro", sans-serif;
 }
+
+h1 {
+  font-weight: 400;
+  font-size: 36px;
+  color: #323232;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-weight: normal;
+}
+
+@media (max-width: 1023px) {
+  h1 {
+    font-size: 24px;
+  }
+}
 /*# sourceMappingURL=uikit.css.map */
