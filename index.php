@@ -60,7 +60,10 @@
             <div class="new-products_slider swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <?php $product = []?>
+                        <?php
+                            $product = ['mark' => 'new'];
+                            include 'modules/product.php';
+                        ?>
                     </div>
                 </div>
             </div>
