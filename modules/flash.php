@@ -4,7 +4,7 @@
         <div class="texts">
             <div class="font-bebas flash-title">Летние предложения</div>
             <div class="countdown">
-                <div class="font-roboto remains">осталось <span class="timer-day">3</span> дня</div>
+                <div class="font-roboto remains"><span class="timer-text_later">осталось</span> <span class="timer-day">3</span> <span class="timer-text"></span></div>
                 <div class="timer font-bebas">
                     <span class="hour">04</span>
                     <span class="minutes">04</span>

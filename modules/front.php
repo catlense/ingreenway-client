@@ -4,7 +4,7 @@ session_start();
 
 $method = $_GET['method'];
 
-$flashEndTime = strtotime('2021-08-16 14:00:00');
+$flashEndTime = strtotime('2021-08-16 20:00:00');
 
 if(!$method) return;
 
@@ -14,10 +14,10 @@ switch($method) {
         break;
     case 'get_flash_time':
         $rem = $flashEndTime - time();
-        $day = floor($rem / 86400) | '0';
-        $hr  = floor(($rem % 86400) / 3600) | '0';
-        $min = floor(($rem % 3600) / 60) | '0';
-        $sec = floor($rem % 60) | '0';
+        $day = floor($rem / 86400);
+        $hr  = floor(($rem % 86400) / 3600);
+        $min = floor(($rem % 3600) / 60);
+        $sec = floor($rem % 60);
         $answer = [];
         
         if($day) array_push($answer, ['days'=>$day]);
