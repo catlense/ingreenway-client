@@ -15,6 +15,7 @@ if (flashTimer.el) {
                 flashTimer.hour.innerText = date[1].hours
                 flashTimer.minute.innerText = date[2].minuts
                 flashTimer.second.innerText = date[3].secs
+                    // console.log(date);
             });
-    })
+    }, 1000)
 }
