@@ -10,6 +10,9 @@
     <!-- Header PC css -->
     <link rel="stylesheet" href="/styles/common/ModuleHeaderPC.css">
 
+    <!-- Footer PC css -->
+    <link rel="stylesheet" href="/styles/common/ModuleFooterPC.css">
+
     <!-- UIKit -->
     <link rel="stylesheet" href="/styles/common/uikit.css">
     <link rel="stylesheet" href="/static/fonts/fontawesome/all.css">
@@ -398,6 +401,8 @@
             </div>
         </div>
     </div>
+
+    <?php include 'modules/footer_pc.php'; ?>
 
     <!-- SwiperJS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
