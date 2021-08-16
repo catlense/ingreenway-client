@@ -4,7 +4,7 @@ session_start();
 
 $method = $_GET['method'];
 
-$flashEndTime = strtotime('2021-08-16 20:00:00');
+$flashEndTime = strtotime('2021-08-22 18:00:00');
 
 if(!$method) return;
 
@@ -20,10 +20,10 @@ switch($method) {
         $sec = floor($rem % 60);
         $answer = [];
         
-        if($day) array_push($answer, ['days'=>$day]);
-        if($hr) array_push($answer, ['hours'=>$hr]);
-        if($min) array_push($answer, ['minuts'=>$min]);
-        if($sec) array_push($answer, ['secs'=>$sec]);
+        array_push($answer, ['days'=>$day]);
+        array_push($answer, ['hours'=>$hr]);
+        array_push($answer, ['minuts'=>$min]);
+        array_push($answer, ['secs'=>$sec]);
         echo json_encode($answer);
         break;
     case 'get_flash_time_end':
