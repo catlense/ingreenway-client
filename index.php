@@ -178,7 +178,7 @@
         </div>
     </div>
 
-    <div class="new-products font-gotham">
+    <div class="hits-products font-gotham">
         <div class="container indexBlock">
             <h1>Хиты продаж</h1>
             <div class="products_slider swiper-container">
@@ -233,6 +233,157 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <div class="font-gotham">
+        <div class="container indexBlock">
+            <h1>Торговые марки</h1>
+            <ul class="indexBrands">
+                <li>
+                    <a href="/shop/brands/active">
+                        <img src="/static/images/brands/starterpack.png" alt="">
+                        <p>Наборы для активации</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/shop/brands/aquamagic">
+                        <img src="/static/images/brands/aquamagic.png" alt="">
+                        <p>Изделия из микроволокна</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/shop/brands/aquamatic">
+                        <img src="/static/images/brands/aquamatic.png" alt="">
+                        <p>Системы для уборки</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/shop/brands/balancer">
+                        <img src="/static/images/brands/balancer.png" alt="">
+                        <p>Функциональное питание</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/shop/brands/biotrim">
+                        <img src="/static/images/brands/biotrim.png" alt="">
+                        <p>Чистящие средства</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/shop/brands/active">
+                        <img src="/static/images/brands/ecopam.png" alt="">
+                        <p>Комплексы с колострумом</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/shop/brands/active">
+                        <img src="/static/images/brands/foet.png" alt="">
+                        <p>Декоративная косметика</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/shop/brands/active">
+                        <img src="/static/images/brands/healthberry.png" alt="">
+                        <p>Функциональные напитки и леденцы</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/shop/brands/active">
+                        <img src="/static/images/brands/hemp.png" alt="">
+                        <p>Уходовая косметика</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/shop/brands/active">
+                        <img src="/static/images/brands/igen.png" alt="">
+                        <p>Генетические тесты</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/shop/brands/active">
+                        <img src="/static/images/brands/nicecode.png" alt="">
+                        <p>Косметика для кожи лица</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/shop/brands/active">
+                        <img src="/static/images/brands/revitall.png" alt="">
+                        <p>Биоминеральные комплексы</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/shop/brands/active">
+                        <img src="/static/images/brands/sharme.png" alt="">
+                        <p>Сухая минеральная косметика</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/shop/brands/active">
+                        <img src="/static/images/brands/sharme_dent.png" alt="">
+                        <p>Натуральные зубные пасты</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/shop/brands/active">
+                        <img src="/static/images/brands/Sharme_DEO.png" alt="">
+                        <p>Природные дезодоранты для тела</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/shop/brands/active">
+                        <img src="/static/images/brands/Sharme_ess.png" alt="">
+                        <p>Натуральные эфирные масла</p>
+                        <p>Аромароллеры</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/shop/brands/active">
+                        <img src="/static/images/brands/Sharme_Hair.png" alt="">
+                        <p>Натуральные твердые шампуни и кондиционеры</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/shop/brands/active">
+                        <img src="/static/images/brands/Sharme_Soap.png" alt="">
+                        <p>Натуральное твердое мыло ручной работы</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/shop/brands/active">
+                        <img src="/static/images/brands/Teavitall.png" alt="">
+                        <p>Функциональные и ежедневные чаи</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/shop/brands/active">
+                        <img src="/static/images/brands/welllab.png" alt="">
+                        <p>Продукты для здоровья</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/shop/brands/active">
+                        <img src="/static/images/brands/welllab_element.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="/shop/brands/active">
+                        <img src="/static/images/brands/wellab_liq.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="/shop/brands/active">
+                        <img src="/static/images/brands/Accs.png" alt="">
+                        <p>Аксессуары</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/shop/brands/active">
+                        <img src="/static/images/brands/Schedule.png" alt="">
+                        <p>Билеты</p>
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
 
