@@ -387,6 +387,18 @@
         </div>
     </div>
 
+    <div class="font-bebas">
+        <div class="indexBlock joinBlock">
+            <div class="head font-gotham">
+                <h1>Получите все возможности Greenway</h1>
+                <p>После регистрации вам станут доступны: Моментальный доступ к скидкам, участие в программе лояльности и доступ к партнёрской программе</p>
+            </div>
+            <div class="withbg">
+                <button class="font-bebas">Присоединиться</button>
+            </div>
+        </div>
+    </div>
+
     <!-- SwiperJS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
