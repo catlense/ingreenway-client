@@ -8,7 +8,7 @@
                 <a href="/search?text=Акции">Акции</a>
             </div>
             <div class="right_links">
-                <a>Присоединиться / Войти</a>
+                <a class="openPopupJB">Присоединиться / Войти</a>
                 <div class="country-selector">
                     <div class="flag">
                         <img src="/static/images/regions/flag-ru.png" alt="">

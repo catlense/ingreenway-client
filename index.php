@@ -29,6 +29,7 @@
         include 'modules/flash.php';
         include 'modules/header_pc.php';
         include 'modules/header_mob.php';
+        include 'modules/popup__Join.php';
     ?>
 
     <div class="swiper-container main-slider">

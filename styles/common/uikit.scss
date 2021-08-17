@@ -1,4 +1,8 @@
 @import url(/static/fonts/getfonts.css);
+* {
+    outline: none;
+}
+
 body {
     margin: 0 auto;
 }
@@ -49,6 +53,33 @@ h1 {
 header.mobile,
 footer.mobile {
     display: none !important;
+}
+
+.popup-wrapper {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 99999;
+    transform: translateX(200%);
+    transition: transform.5s;
+    &.active {
+        transform: translateX(0px);
+    }
+    .closePopup {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        right: 20px;
+        top: 20px;
+        opacity: .4;
+        cursor: pointer;
+        transition: opacity.2s;
+        z-index: 99999999999;
+        &:hover {
+            opacity: .7;
+        }
+    }
 }
 
 @media(max-width: 890px) {
