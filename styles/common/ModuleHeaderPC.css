@@ -151,7 +151,7 @@ header.pc .categories .container {
   height: 100%;
 }
 
-header.pc .categories ul {
+header.pc .categories .container > ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -165,7 +165,7 @@ header.pc .categories ul {
   height: 100%;
 }
 
-header.pc .categories ul > li {
+header.pc .categories .container > ul > li {
   text-transform: uppercase;
   font-weight: 500;
   margin-left: 10px;
@@ -177,9 +177,10 @@ header.pc .categories ul > li {
       -ms-flex-align: center;
           align-items: center;
   height: 100%;
+  position: relative;
 }
 
-header.pc .categories ul > li a {
+header.pc .categories .container > ul > li > a {
   font-size: 12px;
   text-decoration: none;
   display: block;
@@ -191,7 +192,7 @@ header.pc .categories ul > li a {
   transition: color 0.2s;
 }
 
-header.pc .categories ul > li a:after {
+header.pc .categories .container > ul > li > a:after {
   content: "";
   display: block;
   height: 2px;
@@ -213,29 +214,69 @@ header.pc .categories ul > li a:after {
   z-index: 333;
 }
 
-header.pc .categories ul > li a:hover:after {
+header.pc .categories .container > ul > li > a:hover:after {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
   -webkit-transform-origin: left;
           transform-origin: left;
 }
 
-header.pc .categories ul > li a:hover {
+header.pc .categories .container > ul > li > a:hover {
   color: #74c044;
 }
 
-header.pc .categories ul > li a:hover .down-block__categories-subcategories {
+header.pc .categories .container > ul > li > a:hover .down-block__categories-subcategories {
   display: block;
   opacity: 1;
   height: auto;
   visibility: visible;
 }
 
-header.pc .categories ul > li ul {
-  display: none;
+header.pc .categories .container > ul > li ul {
+  position: absolute;
+  top: 60px;
+  width: 330px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  visibility: hidden;
+  background: #fff;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 3px;
+  border: 1px solid #eee;
+  padding: 20px;
 }
 
-header.pc .categories ul li {
+header.pc .categories .container > ul > li ul li {
+  width: 150px;
+}
+
+header.pc .categories .container > ul > li ul li a {
+  font-size: 14px;
+  color: #323232;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: none;
+  font-weight: normal;
+  display: block;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+header.pc .categories .container > ul > li ul li a:hover {
+  color: #74c044;
+}
+
+header.pc .categories .container > ul > li:hover ul {
+  visibility: visible;
+}
+
+header.pc .categories .container > ul li {
   list-style: none;
 }
 /*# sourceMappingURL=ModuleHeaderPC.css.map */

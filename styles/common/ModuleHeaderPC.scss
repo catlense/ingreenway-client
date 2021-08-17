@@ -94,7 +94,7 @@ header.pc {
             justify-content: center;
             height: 100%;
         }
-        ul {
+        .container>ul {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -108,7 +108,8 @@ header.pc {
                 display: flex;
                 align-items: center;
                 height: 100%;
-                a {
+                position: relative;
+                >a {
                     font-size: 12px;
                     text-decoration: none;
                     display: block;
@@ -157,7 +158,40 @@ header.pc {
                     }
                 }
                 ul {
-                    display: none;
+                    position: absolute;
+                    // margin-top: 130px;
+                    top: 60px;
+                    width: 330px;
+                    display: flex;
+                    visibility: hidden;
+                    background: #fff;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    border-radius: 3px;
+                    border: 1px solid #eee;
+                    padding: 20px;
+                    li {
+                        width: 150px;
+                        a {
+                            font-size: 14px;
+                            color: $blackText;
+                            text-decoration: none;
+                            margin-top: 10px;
+                            margin-bottom: 10px;
+                            text-transform: none;
+                            font-weight: normal;
+                            display: block;
+                            transition: color.2s;
+                            &:hover {
+                                color: $primaryGreenColor;
+                            }
+                        }
+                    }
+                }
+                &:hover {
+                    ul {
+                        visibility: visible;
+                    }
                 }
             }
             li {
