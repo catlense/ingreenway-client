@@ -308,11 +308,11 @@
   }
 }
 
-.joinBlock {
+.indexJoinBlock {
   position: relative;
 }
 
-.joinBlock .head {
+.indexJoinBlock .head {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -328,34 +328,34 @@
   background: #fbfbfb;
 }
 
-.joinBlock .head h1,
-.joinBlock .head p {
+.indexJoinBlock .head h1,
+.indexJoinBlock .head p {
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-.joinBlock .head h1 {
+.indexJoinBlock .head h1 {
   text-transform: uppercase;
   font-size: 32px;
   margin-bottom: 0;
 }
 
 @media (max-width: 768px) {
-  .joinBlock .head h1 {
+  .indexJoinBlock .head h1 {
     font-size: larger;
     line-height: 1.5;
   }
 }
 
-.joinBlock .head p {
+.indexJoinBlock .head p {
   max-width: 630px;
   line-height: 1.5;
   font-size: 16px;
 }
 
-.joinBlock .withbg {
+.indexJoinBlock .withbg {
   background: url(/static/images/photos/reg.jpg) no-repeat #000;
   height: 610px;
   max-height: 610px;
@@ -368,12 +368,12 @@
 }
 
 @media (max-width: 768px) {
-  .joinBlock .withbg {
+  .indexJoinBlock .withbg {
     max-height: 405px;
   }
 }
 
-.joinBlock .withbg button {
+.indexJoinBlock .withbg button {
   border: 8px solid #fff;
   padding: 16px 56px;
   color: #fff;
@@ -394,12 +394,12 @@
   transition: opacity 0.4s;
 }
 
-.joinBlock .withbg button:hover {
+.indexJoinBlock .withbg button:hover {
   opacity: .6;
 }
 
 @media (max-width: 768px) {
-  .joinBlock .withbg button {
+  .indexJoinBlock .withbg button {
     font-size: 32px;
     border: 4px solid #fff;
     padding-bottom: 11px;

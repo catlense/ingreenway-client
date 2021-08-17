@@ -7,6 +7,7 @@
   height: 100%;
   background: #f8f8f8;
   color: #323232;
+  overflow-y: auto;
 }
 
 .joinBlock h1 {

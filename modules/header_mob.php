@@ -59,6 +59,24 @@
             </ul>
         </div>
     </div>
+    <div class="mobile-menu font-gotham">
+        <div class="consultant-info">
+            <div class="consultant-line main">
+                <img src="/static/images/ui-icons/user.svg" alt="">
+                <h1>Консультант бренда</h1>
+            </div>
+            <div class="consultant-line" style="margin-left: 39px;">
+                <p>Левко Эмма id 9416992</p>
+            </div>
+            <div class="consultant-line" style="margin-left: 39px;">
+                <a href="/consultant">Подробнее <i class="mdi mdi-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="openPopupJB">
+            <img src="/static/images/ui-icons/menu-view-all.svg" alt="">
+            <h1>Присоединиться / Войти</h1>
+        </div>
+    </div>
 </header>
 <link rel="stylesheet" href="/styles/common/ModuleHeaderMob.css">
 <script src="/js/ui/mobile-header.js"></script>

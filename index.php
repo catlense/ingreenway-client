@@ -393,7 +393,7 @@
     </div>
 
     <div class="font-bebas">
-        <div class="indexBlock joinBlock">
+        <div class="indexBlock indexJoinBlock">
             <div class="head font-gotham">
                 <h1>Получите все возможности Greenway</h1>
                 <p>После регистрации вам станут доступны: Моментальный доступ к скидкам, участие в программе лояльности и доступ к партнёрской программе</p>

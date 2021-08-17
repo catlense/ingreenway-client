@@ -1,4 +1,4 @@
-let openPopup = document.querySelector('.openPopupJB')
+let openPopup = document.querySelectorAll('.openPopupJB')
 let closePopup = document.querySelector('.closePopup')
 
 let joinBlock = document.querySelector('.joinBlock')
@@ -13,12 +13,12 @@ let thirdScreen = document.querySelector('.third_screen')
 
 let openConsultantMenu = document.querySelector('.openConsultant')
 
-let header = document.querySelector('header')
-
-openPopup.onclick = () => {
-    wrapperJB.classList.toggle('active')
-    document.body.style.overflow = 'hidden'
-}
+openPopup.forEach(element => {
+    element.onclick = () => {
+        wrapperJB.classList.toggle('active')
+        document.body.style.overflow = 'hidden'
+    }
+})
 closePopup.onclick = () => {
     wrapperJB.classList.toggle('active')
     document.body.style.overflow = 'auto'
