@@ -231,6 +231,10 @@ header.pc .categories ul > li a:hover .down-block__categories-subcategories {
   visibility: visible;
 }
 
+header.pc .categories ul > li ul {
+  display: none;
+}
+
 header.pc .categories ul li {
   list-style: none;
 }

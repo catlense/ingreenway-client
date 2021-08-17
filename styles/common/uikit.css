@@ -60,7 +60,7 @@ h1 {
 
 header.mobile,
 footer.mobile {
-  display: none;
+  display: none !important;
 }
 
 @media (max-width: 890px) {
@@ -70,9 +70,7 @@ footer.mobile {
   }
   header.mobile,
   footer.mobile {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: block !important;
   }
 }
 /*# sourceMappingURL=uikit.css.map */

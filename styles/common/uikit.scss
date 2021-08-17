@@ -48,7 +48,7 @@ h1 {
 
 header.mobile,
 footer.mobile {
-    display: none;
+    display: none !important;
 }
 
 @media(max-width: 890px) {
@@ -58,6 +58,6 @@ footer.mobile {
     }
     header.mobile,
     footer.mobile {
-        display: flex;
+        display: block !important;
     }
 }

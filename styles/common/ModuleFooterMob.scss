@@ -13,7 +13,7 @@ footer.mobile {
             overflow: hidden;
             color: $grayText;
             position: relative;
-            transition: height.2s;
+            transition: height.4s;
             &::after {
                 content: "+";
                 right: 0;
@@ -29,7 +29,7 @@ footer.mobile {
                 top: 0;
             }
             &.active {
-                height: unset;
+                height: 200px;
                 &::after {
                     display: none;
                 }

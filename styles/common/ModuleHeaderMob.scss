@@ -1,16 +1,23 @@
 @import "vars.scss";
 header.mobile {
-    height: 50px;
+    min-height: 50px;
     position: fixed;
     background: white;
     width: 100%;
     z-index: 999;
-    display: flex;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    align-items: center;
+    transition: margin.2s;
+    .container {
+        &.main-content {
+            height: 50px;
+            display: flex;
+            align-items: center;
+        }
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
     .logo {
         img {
             height: 28px;
@@ -22,7 +29,7 @@ header.mobile {
     .right-links {
         display: flex;
         margin-left: auto;
-        margin-right: 30px;
+        margin-right: 20px;
         svg {
             width: 24px;
             height: 24px;
@@ -76,6 +83,136 @@ header.mobile {
                 width: 16px;
                 margin-left: auto;
             }
+        }
+    }
+    .categories {
+        height: 50px;
+        width: 100%;
+        background: #fdfdfd;
+        .container {
+            padding-bottom: 0;
+            padding-top: 0;
+        }
+        button {
+            height: 50px;
+            background: transparent;
+            border: none;
+            text-transform: uppercase;
+            font-weight: 500;
+            color: $blackText;
+            display: flex;
+            align-items: center;
+            font-size: 12px;
+            letter-spacing: 0.03em;
+            transition: color.2s, border.2s;
+            line-height: 50px;
+            img {
+                width: 14px;
+                margin-right: 10px;
+            }
+            &.active {
+                border-bottom: 2px solid $primaryGreenColor;
+                color: $primaryGreenColor;
+                &+ul {
+                    display: block;
+                }
+            }
+        }
+        ul {
+            min-width: 250px;
+            max-width: 90%;
+            max-height: calc(100% - 100px);
+            margin: 0;
+            padding: 0;
+            background: #fdfdfd;
+            display: none;
+            overflow-x: hidden;
+            overflow-y: auto;
+            margin-left: -10px;
+            padding-left: 10px;
+            li {
+                min-height: 50px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 250px;
+                padding-left: 20px;
+                position: relative;
+                border-top: 1px solid #eee;
+                padding-right: 10px;
+                overflow: hidden;
+                a {
+                    text-decoration: none;
+                    color: $blackText;
+                    line-height: 50px;
+                    font-size: 12px;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    letter-spacing: 0.03em;
+                    position: relative;
+                }
+                ul {
+                    display: none;
+                    li {
+                        height: 30px;
+                        border-top: none;
+                        a {
+                            text-transform: none;
+                            font-weight: normal;
+                            font-size: 14px;
+                        }
+                        i,
+                        i::before,
+                        i::after {
+                            display: none;
+                        }
+                    }
+                }
+                i {
+                    &::after {
+                        content: "";
+                        width: 50px;
+                        max-height: 50px;
+                        position: absolute;
+                        right: 0;
+                        top: 6px;
+                        bottom: 6px;
+                        background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iOSIgdmlld0JveD0iMCAwIDE0IDkiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTIuMTUwMDIgMC42MTI1ODVMNy4wMDAwMiA1LjQ2MjU4TDExLjg1IDAuNjEyNTg1QzExLjk2NTcgMC40OTY4NTcgMTIuMTAzMSAwLjQwNTA1OCAxMi4yNTQzIDAuMzQyNDI3QzEyLjQwNTUgMC4yNzk3OTUgMTIuNTY3NiAwLjI0NzU1OSAxMi43MzEzIDAuMjQ3NTU5QzEyLjg5NDkgMC4yNDc1NTkgMTMuMDU3IDAuMjc5Nzk1IDEzLjIwODIgMC4zNDI0MjdDMTMuMzU5NCAwLjQwNTA1OCAxMy40OTY4IDAuNDk2ODU3IDEzLjYxMjUgMC42MTI1ODVDMTMuNzI4MiAwLjcyODMxMiAxMy44MiAwLjg2NTcgMTMuODgyNyAxLjAxNjkxQzEzLjk0NTMgMS4xNjgxMSAxMy45Nzc1IDEuMzMwMTcgMTMuOTc3NSAxLjQ5MzgzQzEzLjk3NzUgMS42NTc1IDEzLjk0NTMgMS44MTk1NiAxMy44ODI3IDEuOTcwNzZDMTMuODIgMi4xMjE5NyAxMy43MjgyIDIuMjU5MzYgMTMuNjEyNSAyLjM3NTA4TDcuODc1MDEgOC4xMTI1OEM3LjM4NzUxIDguNjAwMDggNi42MDAwMiA4LjYwMDA4IDYuMTEyNTIgOC4xMTI1OEwwLjM3NTAxOCAyLjM3NTA4QzAuMjU5MTM4IDIuMjU5NDQgMC4xNjcyMDQgMi4xMjIwOCAwLjEwNDQ3NyAxLjk3MDg2QzAuMDQxNzUwOSAxLjgxOTY1IDAuMDA5NDYyMzYgMS42NTc1NCAwLjAwOTQ2MjM2IDEuNDkzODNDMC4wMDk0NjIzNiAxLjMzMDEyIDAuMDQxNzUwOSAxLjE2ODAyIDAuMTA0NDc3IDEuMDE2OEMwLjE2NzIwNCAwLjg2NTU4OCAwLjI1OTEzOCAwLjcyODIyNyAwLjM3NTAxOCAwLjYxMjU4NUMwLjg2MjUxNyAwLjEzNzU4NSAxLjY2MjUyIDAuMTI1MDg1IDIuMTUwMDIgMC42MTI1ODVaIiBmaWxsPSIjNDY0NjQ2Ii8+PC9zdmc+);
+                        background-size: 12px 7px;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        transform-origin: center;
+                        transform: rotate( -90deg);
+                        transition: transform 0.4s cubic-bezier(0, 0.5, 0.5, 1), opacity 0.3s cubic-bezier(0, 0.5, 0.5, 1);
+                    }
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        right: 50px;
+                        top: 6px;
+                        bottom: 6px;
+                        height: 38px;
+                        border-left: 1px solid #ececec;
+                    }
+                }
+                &.active {
+                    >ul {
+                        display: block;
+                    }
+                    i::after {
+                        transform: rotate(0deg);
+                        opacity: .7;
+                    }
+                    i::before {
+                        opacity: 0;
+                    }
+                }
+            }
+            // visibility: hidden;
+            // height: 0;
+            // overflow: hidden;
+            // margin: 0;
+            // padding: 0;
         }
     }
 }

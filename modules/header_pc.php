@@ -43,8 +43,26 @@
         <div class="container font-gotham">
             <ul>
                 <li><a href="/shop">Все товары</a></li>
-                <li><a href="/shop/home">Дом</a></li>
-                <li><a href="/shop/beauty">Красота и уход</a></li>
+                <li>
+                    <a href="/shop/home">Дом</a>
+                    <ul>
+                        <li><a href="/shop/home/test1">Тест 1</a></li>
+                        <li><a href="/shop/home/test2">Тест 2</a></li>
+                        <li><a href="/shop/home/test3">Тест 3</a></li>
+                        <li><a href="/shop/home/test4">Тест 4</a></li>
+                        <li><a href="/shop/home/test5">Тест 5</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/shop/beauty">Красота и уход</a>
+                    <ul>
+                        <li><a href="/shop/home/test1">Тест 1</a></li>
+                        <li><a href="/shop/home/test2">Тест 2</a></li>
+                        <li><a href="/shop/home/test3">Тест 3</a></li>
+                        <li><a href="/shop/home/test4">Тест 4</a></li>
+                        <li><a href="/shop/home/test5">Тест 5</a></li>
+                    </ul>
+                </li>
                 <li><a href="/shop/health">Здоровье</a></li>
                 <li><a href="/shop/eat">Питание</a></li>
                 <li><a href="/shop/textile">Текстиль</a></li>

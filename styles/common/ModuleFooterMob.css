@@ -16,8 +16,8 @@ footer.mobile .container > ul > li {
   overflow: hidden;
   color: #929292;
   position: relative;
-  -webkit-transition: height 0.2s;
-  transition: height 0.2s;
+  -webkit-transition: height 0.4s;
+  transition: height 0.4s;
 }
 
 footer.mobile .container > ul > li::after {
@@ -37,7 +37,7 @@ footer.mobile .container > ul > li::before {
 }
 
 footer.mobile .container > ul > li.active {
-  height: unset;
+  height: 200px;
 }
 
 footer.mobile .container > ul > li.active::after {
