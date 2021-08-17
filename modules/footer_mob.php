@@ -3,12 +3,48 @@
         <ul class="footerLinks">
             <li>
                 Клиентская поддержка
+                <ul>
+                    <li>
+                        <a href="tel:88002345800">
+                            <i class="mdi mdi-phone-in-talk-outline"></i>
+                            8-800-2345-800
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:office@greenway.group">
+                            <i class="mdi mdi-email-outline"></i>
+                            office@greenway.group
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <i class="mdi mdi-clock-outline"></i>
+                            с 6:00 до 22:00 (МСК)
+                        </a>
+                    </li>
+                </ul>
             </li>
             <li>
                 Интернет-магазин
+                <ul>
+                    <li>
+                        <a href="/products" class="link with_leaves">Продукты</a>
+                        <a href="/pay" class="link with_leaves">Оплата заказов</a>
+                        <a href="/payback" class="link with_leaves">Возврат</a>
+                        <a href="/delivery" class="link with_leaves">Способ доставки</a>
+                    </li>
+                </ul>
             </li>
             <li>
                 Информация
+                <ul>
+                    <li>
+                        <a href="/company" class="link with_leaves">О компании</a>
+                        <a href="/oppartinuties" class="link with_leaves">Возможности</a>
+                        <a href="/history" class="link with_leaves">История Greenway</a>
+                        <a href="/faq" class="link with_leaves">Ответы на вопросы</a>
+                    </li>
+                </ul>
             </li>
         </ul>
         <div class="footerSocial">
@@ -41,3 +77,4 @@
 </footer>
 
 <link rel="stylesheet" href="/styles/common/ModuleFooterMob.css">
+<script src="/js/ui/mobile-footer.js"></script>
