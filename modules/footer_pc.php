@@ -1,4 +1,4 @@
-<footer>
+<footer class="pc">
     <div class="content font-gotham">
         <div class="content__footer">
             <div class="link_block">

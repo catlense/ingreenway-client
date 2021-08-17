@@ -28,6 +28,7 @@
     <?php
         include 'modules/flash.php';
         include 'modules/header_pc.php';
+        include 'modules/header_mob.php';
     ?>
 
     <div class="swiper-container main-slider">
