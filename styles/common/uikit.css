@@ -58,6 +58,11 @@ h1 {
   }
 }
 
+header.mobile,
+footer.mobile {
+  display: none;
+}
+
 @media (max-width: 890px) {
   header.pc,
   footer.pc {

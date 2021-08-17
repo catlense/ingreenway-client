@@ -1,1 +1,93 @@
-/* No CSS *//*# sourceMappingURL=ModuleFooterMob.css.map */
+footer.mobile {
+  padding-top: 20px;
+}
+
+footer.mobile .container > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer.mobile .container > ul > li {
+  list-style: none;
+  line-height: 32px;
+  font-weight: 500;
+  color: #929292;
+  position: relative;
+}
+
+footer.mobile .container > ul > li::after {
+  content: "+";
+  right: 0;
+  position: absolute;
+  top: 0;
+}
+
+footer.mobile .container > ul > li::before {
+  content: "-";
+  margin-left: auto;
+  position: absolute;
+  right: 0;
+  display: none;
+  top: 0;
+}
+
+footer.mobile .footerSocial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer.mobile .footerSocial .logo {
+  width: 55%;
+}
+
+footer.mobile .footerSocial .logo img {
+  width: 100%;
+}
+
+footer.mobile .footerSocial .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 40%;
+  margin-left: auto;
+}
+
+footer.mobile .footerSocial .social svg {
+  width: 28px;
+  height: 28px;
+  fill: #323232;
+  -webkit-transition: fill 0.2s;
+  transition: fill 0.2s;
+}
+
+footer.mobile .footerSocial .social svg:hover {
+  fill: #74c044;
+}
+
+footer.mobile .footerFooter {
+  padding-top: 10px;
+  margin-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+footer.mobile .footerFooter p {
+  font-size: 12px;
+  color: #929292;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+footer.mobile .footerFooter p a {
+  text-decoration: none;
+  color: #74c044;
+}
+/*# sourceMappingURL=ModuleFooterMob.css.map */
