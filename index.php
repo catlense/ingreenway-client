@@ -403,7 +403,10 @@
         </div>
     </div>
 
-    <?php include 'modules/footer_pc.php'; ?>
+    <?php
+        include 'modules/footer_pc.php';
+        include 'modules/footer_mob.php';
+    ?>
 
     <!-- SwiperJS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />

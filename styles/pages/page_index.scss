@@ -215,6 +215,7 @@
 }
 
 .joinBlock {
+    position: relative;
     .head {
         display: flex;
         flex-direction: column;
@@ -232,7 +233,7 @@
             font-size: 32px;
             margin-bottom: 0;
             @media(max-width: 768px) {
-                font-size: 22px;
+                font-size: larger;
                 line-height: 1.5;
             }
         }
@@ -250,6 +251,9 @@
         background-position: center;
         margin-top: 0;
         display: flex;
+        @media(max-width: 768px) {
+            max-height: 405px;
+        }
         button {
             border: 8px solid #fff;
             padding: 16px 56px;

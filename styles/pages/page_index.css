@@ -308,6 +308,10 @@
   }
 }
 
+.joinBlock {
+  position: relative;
+}
+
 .joinBlock .head {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -340,7 +344,7 @@
 
 @media (max-width: 768px) {
   .joinBlock .head h1 {
-    font-size: 22px;
+    font-size: larger;
     line-height: 1.5;
   }
 }
@@ -361,6 +365,12 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media (max-width: 768px) {
+  .joinBlock .withbg {
+    max-height: 405px;
+  }
 }
 
 .joinBlock .withbg button {
