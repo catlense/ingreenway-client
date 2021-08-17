@@ -1,0 +1,81 @@
+@import "vars.scss";
+header.mobile {
+    height: 50px;
+    position: fixed;
+    background: white;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    .logo {
+        img {
+            height: 28px;
+        }
+        .default_logo {
+            display: none;
+        }
+    }
+    .right-links {
+        display: flex;
+        margin-left: auto;
+        margin-right: 30px;
+        svg {
+            width: 24px;
+            height: 24px;
+            margin-right: 18px;
+            fill: $blackText;
+        }
+        .menu {
+            width: 27px;
+            flex-direction: column;
+            transition: transform 0.4s cubic-bezier(0, 0.5, 0.5, 1);
+            height: 24px;
+            display: flex;
+            &.animate {
+                transform: rotate(180deg);
+                height: 26px;
+                .sl {
+                    display: none;
+                }
+                .fl {
+                    transform: translate(0px, 12px) rotate( 45deg);
+                    width: 28px;
+                    margin-top: 1px;
+                    margin-bottom: 0;
+                    height: 3px;
+                }
+                .tl {
+                    transform: translate(-1px, 8px) rotate( -45deg);
+                    width: 28px;
+                    margin-top: 1px;
+                    margin-bottom: 0px;
+                    margin-left: 1px;
+                    height: 3px;
+                }
+            }
+            span {
+                border-radius: 40px;
+                height: 4px;
+                display: table;
+                background: $blackText;
+                margin-bottom: 3px;
+                margin-top: 2px;
+                transition: width.3s, transform.3s, margin.3s;
+            }
+            .fl {
+                width: 16px;
+            }
+            .sl {
+                width: 26px;
+            }
+            .tl {
+                width: 16px;
+                margin-left: auto;
+            }
+        }
+    }
+}

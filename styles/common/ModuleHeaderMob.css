@@ -1,0 +1,112 @@
+header.mobile {
+  height: 50px;
+  position: fixed;
+  background: white;
+  width: 100%;
+  z-index: 999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header.mobile .logo img {
+  height: 28px;
+}
+
+header.mobile .logo .default_logo {
+  display: none;
+}
+
+header.mobile .right-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+header.mobile .right-links svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 18px;
+  fill: #323232;
+}
+
+header.mobile .right-links .menu {
+  width: 27px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transition: -webkit-transform 0.4s cubic-bezier(0, 0.5, 0.5, 1);
+  transition: -webkit-transform 0.4s cubic-bezier(0, 0.5, 0.5, 1);
+  transition: transform 0.4s cubic-bezier(0, 0.5, 0.5, 1);
+  transition: transform 0.4s cubic-bezier(0, 0.5, 0.5, 1), -webkit-transform 0.4s cubic-bezier(0, 0.5, 0.5, 1);
+  height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header.mobile .right-links .menu.animate {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  height: 26px;
+}
+
+header.mobile .right-links .menu.animate .sl {
+  display: none;
+}
+
+header.mobile .right-links .menu.animate .fl {
+  -webkit-transform: translate(0px, 12px) rotate(45deg);
+          transform: translate(0px, 12px) rotate(45deg);
+  width: 28px;
+  margin-top: 1px;
+  margin-bottom: 0;
+  height: 3px;
+}
+
+header.mobile .right-links .menu.animate .tl {
+  -webkit-transform: translate(-1px, 8px) rotate(-45deg);
+          transform: translate(-1px, 8px) rotate(-45deg);
+  width: 28px;
+  margin-top: 1px;
+  margin-bottom: 0px;
+  margin-left: 1px;
+  height: 3px;
+}
+
+header.mobile .right-links .menu span {
+  border-radius: 40px;
+  height: 4px;
+  display: table;
+  background: #323232;
+  margin-bottom: 3px;
+  margin-top: 2px;
+  -webkit-transition: width 0.3s, margin 0.3s, -webkit-transform 0.3s;
+  transition: width 0.3s, margin 0.3s, -webkit-transform 0.3s;
+  transition: width 0.3s, transform 0.3s, margin 0.3s;
+  transition: width 0.3s, transform 0.3s, margin 0.3s, -webkit-transform 0.3s;
+}
+
+header.mobile .right-links .menu .fl {
+  width: 16px;
+}
+
+header.mobile .right-links .menu .sl {
+  width: 26px;
+}
+
+header.mobile .right-links .menu .tl {
+  width: 16px;
+  margin-left: auto;
+}
+/*# sourceMappingURL=ModuleHeaderMob.css.map */
