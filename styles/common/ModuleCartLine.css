@@ -1,0 +1,17 @@
+.cart-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.cart-line .image {
+  width: 80px;
+  height: 80px;
+}
+
+.cart-line .image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+/*# sourceMappingURL=ModuleCartLine.css.map */

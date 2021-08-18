@@ -1,0 +1,21 @@
+@import "vars.scss";
+.cartContainer {
+    min-width: 280px;
+    width: 560px;
+    padding: 30px 50px;
+    z-index: 9999;
+    max-width: calc(100% - 100px);
+    background: #F8F8F8;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    h1 {
+        font-weight: bold;
+    }
+    .cartList {
+        width: 100%;
+        background: #fff;
+        border-radius: 25px;
+        padding: 10px;
+    }
+}

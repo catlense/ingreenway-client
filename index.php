@@ -30,6 +30,7 @@
         include 'modules/header_pc.php';
         include 'modules/header_mob.php';
         include 'modules/popup__Join.php';
+        include 'modules/popup__Cart.php';
     ?>
 
     <div class="swiper-container main-slider">
