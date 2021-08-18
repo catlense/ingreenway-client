@@ -10,14 +10,20 @@
   height: 100%;
 }
 
+@media (max-width: 650px) {
+  .cartContainer {
+    padding: 40px 20px;
+  }
+}
+
 .cartContainer h1 {
   font-weight: bold;
 }
 
 .cartContainer .cartList {
-  width: 100%;
+  width: calc(100% - 20px);
   background: #fff;
-  border-radius: 25px;
+  border-radius: 15px;
   padding: 10px;
 }
 /*# sourceMappingURL=PopupCart.css.map */

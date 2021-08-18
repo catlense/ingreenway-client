@@ -9,13 +9,16 @@
     position: absolute;
     right: 0;
     height: 100%;
+    @media(max-width: 650px) {
+        padding: 40px 20px;
+    }
     h1 {
         font-weight: bold;
     }
     .cartList {
-        width: 100%;
+        width: calc(100% - 20px);
         background: #fff;
-        border-radius: 25px;
+        border-radius: 15px;
         padding: 10px;
     }
 }

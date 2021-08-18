@@ -23,3 +23,4 @@
 </div>
 <link rel="stylesheet" href="/styles/common/PopupCart.css">
 <link rel="stylesheet" href="/styles/common/ModuleCartLine.css">
+<script src="/js/frontend/cart_line.js"></script>
