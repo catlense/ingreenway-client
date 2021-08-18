@@ -12,6 +12,7 @@ document.querySelectorAll('.edit-count input').forEach(element => {
 amounts.plus.forEach(element => {
     element.onclick = () => {
         document.querySelector(`input#${element.getAttribute('data-id')}`).value = (parseInt(document.querySelector(`input#${element.getAttribute('data-id')}`).value) | 0) + 1
+        document.querySelector(`.total_price#${element.getAttribute('data-id')}`).innerText = parseInt(document.querySelector(`input#${element.getAttribute('data-id')}`).getAttribute('data')) * parseInt(document.querySelector(`input#${element.getAttribute('data-id')}`).value)
     }
 })
 amounts.minus.forEach(element => {

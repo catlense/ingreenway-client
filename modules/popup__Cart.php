@@ -1,4 +1,4 @@
-<div class="popup-wrapper active cb">
+<div class="popup-wrapper cb">
     <div class="cartBlock font-gotham">
         <div class="closePopup">
             <svg viewBox="0 0 18 18">
@@ -10,13 +10,22 @@
             <div class="cartList">
                 <?php
                     $carts = [
-                        ['id'=>1, 'image'=>'http://ingreenway.mv/products/1.jpg', 'title'=>'Веллаб Артемия / Wellab Artemia, 30 капсул', 'price'=>490, 'count'=>1],
-                        ['id'=>2, 'image'=>'http://ingreenway.mv/products/2.jpg', 'title'=>'Веллаб Артемия / Wellab Artemia, 40 капсул', 'price'=>690, 'count'=>3],
+                        ['id'=>1, 'image'=>'/static/images/products/1.jpg', 'title'=>'Веллаб Артемия / Wellab Artemia, 30 капсул', 'price'=>490, 'count'=>1],
+                        ['id'=>2, 'image'=>'/static/images/products/2.jpg', 'title'=>'Веллаб Артемия / Wellab Artemia, 40 капсул', 'price'=>690, 'count'=>3],
                     ];
                     foreach($carts as $cart) {
                         include 'modules/cart_line.php';
                     }
                 ?>
+            </div>
+            <div class="cart_footer font-gotham">
+                <h1>Итого</h1>
+                <p>Общее количество товаров <span><?=count($carts);?></span> шт.</p>
+                <p>Всего <span>3 690.00</span> РУБ</p>
+                <div class="control">
+                    <button class="tocart font-gotham">Оформить заказ</button>
+                    <button class="clear font-gotham">Очистить корзину</button>
+                </div>
             </div>
         </div>
     </div>
@@ -24,3 +33,4 @@
 <link rel="stylesheet" href="/styles/common/PopupCart.css">
 <link rel="stylesheet" href="/styles/common/ModuleCartLine.css">
 <script src="/js/frontend/cart_line.js"></script>
+<script src="/js/ui/popup__cart.js"></script>
