@@ -5,6 +5,10 @@ let openCategories = document.querySelector('.categories button')
 let openMenu = document.querySelector('.right-link.menu')
 let mobileMenu = document.querySelector('.mobile-menu')
 
+let selectMenu = document.querySelectorAll('.selectMenu')
+let backMenus = document.querySelectorAll('.backMenu')
+let selectorsMenu = document.querySelectorAll('.selectorMenu')
+
 mainCategoryContainer.style.maxHeight = window.innerHeight - 250 + 'px'
 
 openCategories.onclick = () => {
@@ -15,7 +19,23 @@ openSubcategories.forEach(element => {
     element.onclick = () => {
         element.classList.toggle('active')
     }
-});
+})
+
+selectMenu.forEach(element => {
+    element.onclick = () => {
+        if (_$(`#${element.getAttribute('data')}`)) {
+            _$(`#${element.getAttribute('data')}`).classList.add('active')
+        }
+    }
+})
+
+backMenus.forEach(element => {
+    element.onclick = () => {
+        if (_$('.selectorMenu.active')) {
+            _$('.selectorMenu.active').classList.remove('active')
+        }
+    }
+})
 
 openMenu.onclick = () => {
     if (openMenu.classList.toggle('animate')) {
@@ -32,6 +52,10 @@ openMenu.onclick = () => {
         _$('.default_logo').style.display = 'none'
         _$().style.overflow = 'auto'
         mobileMenu.style.height = '0px'
+        selectorsMenu.forEach(element => {
+            element.classList.remove('active')
+        })
+        _$('.consultant-info').classList.remove('active')
     }
 }
 

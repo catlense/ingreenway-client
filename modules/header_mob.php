@@ -76,6 +76,60 @@
             <img src="/static/images/ui-icons/menu-view-all.svg" alt="">
             <h1>Присоединиться / Войти</h1>
         </div>
+        <div class="selectMenu" data="online-shop">
+            Интернет-магазин
+            <svg viewBox="0 0 20 20" preserveAspectRatio="xMidYMid meet" focusable="false" size="icon-sm" class="icon" style="pointer-events: none; display: block;"><g data-v-36192c72="" id="icon-direction-mc" stroke="none" fill="none" fill-rule="evenodd"><g id="Triangle/Down-Copy" transform="translate(10.000000, 9.500000) scale(1, -1) translate(-10.000000, -9.500000) translate(5.000000, 7.000000)" fill="currentColor">
+                <path d="M5.08838835,0.0366116524 L10,4.9482233 L0,4.9482233 L4.91161165,0.0366116524 C4.96042719,-0.0122038841 5.03957281,-0.0122038841 5.08838835,0.0366116524 Z" id="Triangle" transform="translate(5.000000, 2.474112) scale(1, -1) translate(-5.000000, -2.474112) "></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="selectMenu" data="company">
+            Компания
+            <svg viewBox="0 0 20 20" preserveAspectRatio="xMidYMid meet" focusable="false" size="icon-sm" class="icon" style="pointer-events: none; display: block;"><g data-v-36192c72="" id="icon-direction-mc" stroke="none" fill="none" fill-rule="evenodd"><g id="Triangle/Down-Copy" transform="translate(10.000000, 9.500000) scale(1, -1) translate(-10.000000, -9.500000) translate(5.000000, 7.000000)" fill="currentColor">
+                <path d="M5.08838835,0.0366116524 L10,4.9482233 L0,4.9482233 L4.91161165,0.0366116524 C4.96042719,-0.0122038841 5.03957281,-0.0122038841 5.08838835,0.0366116524 Z" id="Triangle" transform="translate(5.000000, 2.474112) scale(1, -1) translate(-5.000000, -2.474112) "></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="selectMenu" data="faq">
+            Ответы на вопросы
+            <svg viewBox="0 0 20 20" preserveAspectRatio="xMidYMid meet" focusable="false" size="icon-sm" class="icon" style="pointer-events: none; display: block;"><g data-v-36192c72="" id="icon-direction-mc" stroke="none" fill="none" fill-rule="evenodd"><g id="Triangle/Down-Copy" transform="translate(10.000000, 9.500000) scale(1, -1) translate(-10.000000, -9.500000) translate(5.000000, 7.000000)" fill="currentColor">
+                <path d="M5.08838835,0.0366116524 L10,4.9482233 L0,4.9482233 L4.91161165,0.0366116524 C4.96042719,-0.0122038841 5.03957281,-0.0122038841 5.08838835,0.0366116524 Z" id="Triangle" transform="translate(5.000000, 2.474112) scale(1, -1) translate(-5.000000, -2.474112) "></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="selectMenu selectLanguage" data="language">
+            <h1>Россия / RU</h1>
+        </div>
+        <div class="selectorMenu font-gotham" id="online-shop">
+            <div class="backMenu">
+                <i class="mdi mdi-arrow-left"></i>
+                Интернет-магазин
+            </div>
+            <a href="/shop">Все товары</a>
+            <a href="/shop/home">Дом</a>
+        </div>
+        <div class="selectorMenu font-gotham" id="company">
+            <div class="backMenu">
+                <i class="mdi mdi-arrow-left"></i>
+                Компания
+            </div>
+            <a href="/greenway">О компании</a>
+            <a href="#">Какая-то страница</a>
+        </div>
+        <div class="selectorMenu font-gotham" id="faq">
+            <div class="backMenu">
+                <i class="mdi mdi-arrow-left"></i>
+                Ответы на вопросы
+            </div>
+            <a href="/faq">Политика конфеденциальности</a>
+            <a href="#">Какая-то страница</a>
+        </div>
+        <div class="selectorMenu font-gotham" id="language">
+            <div class="backMenu">
+                <i class="mdi mdi-arrow-left"></i>
+                Выбор языка
+            </div>
+        </div>
     </div>
 </header>
 <link rel="stylesheet" href="/styles/common/ModuleHeaderMob.css">
