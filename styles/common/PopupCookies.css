@@ -1,0 +1,86 @@
+.popup__cookies {
+  position: fixed;
+  height: auto;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  max-width: 540px;
+  background: white;
+  z-index: 999999999;
+  border-top: 8px #74c044 solid;
+  color: rgba(54, 66, 76, 0.75);
+  -webkit-box-shadow: -4px 0 20px 0 rgba(65, 61, 88, 0.1);
+          box-shadow: -4px 0 20px 0 rgba(65, 61, 88, 0.1);
+  -webkit-transform: translateX(1000%);
+          transform: translateX(1000%);
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  padding: 24px;
+}
+
+.popup__cookies.visible {
+  -webkit-transform: translateY(-10%) translateX(-5%);
+          transform: translateY(-10%) translateX(-5%);
+}
+
+.popup__cookies .title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.popup__cookies p {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  display: block;
+  padding: 5px 0;
+  font-weight: 400;
+}
+
+.popup__cookies .row_line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.popup__cookies .cookie__show_more {
+  display: block;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 32px;
+  color: rgba(54, 66, 76, 0.5);
+  letter-spacing: -0.32px;
+  margin-left: auto;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.popup__cookies .close_cookie_block button {
+  background-color: #74c044;
+  padding: 12px 32px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #FFFFFF;
+  height: 48px;
+  letter-spacing: -0.22px;
+  border: none;
+  font-weight: 500;
+}
+/*# sourceMappingURL=PopupCookies.css.map */

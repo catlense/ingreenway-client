@@ -31,6 +31,7 @@
         include 'modules/header_mob.php';
         include 'modules/popup__Join.php';
         include 'modules/popup__Cart.php';
+        include 'modules/popup__Cookies.php';
     ?>
 
     <div class="swiper-container main-slider">

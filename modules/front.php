@@ -29,6 +29,9 @@ switch($method) {
     case 'get_flash_time_end':
         echo json_encode(['date'=>$flashEndTime]);
         break;
+    case 'close_cookie':
+        $_SESSION['user']->cookie_accepted = true;
+        break;
     default: echo json_encode(['type'=>'error', 'text'=>'case not found']);
 }
 
