@@ -1,0 +1,332 @@
+.popup__support-opener {
+  position: fixed;
+  width: 64px;
+  height: 64px;
+  right: 30px;
+  bottom: 30px;
+  border-radius: 50px;
+  z-index: 99999;
+  background: url(/static/images/photos/avatar.jpg) center;
+  background-size: 150%;
+  border: 4px solid white;
+  cursor: pointer;
+}
+
+.popup__support-opener::after {
+  content: " ";
+  left: -8px;
+  right: -8px;
+  top: -8px;
+  bottom: -8px;
+  position: absolute;
+  background-color: rgba(116, 192, 68, 0.32);
+  border: 1px solid rgba(116, 192, 68, 0.64);
+  opacity: 0;
+  border-radius: 48px;
+  -webkit-transition-duration: .24s;
+          transition-duration: .24s;
+  -webkit-transition-property: left, right, top, bottom, opacity;
+  transition-property: left, right, top, bottom, opacity;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  z-index: -1;
+}
+
+.popup__support-opener:hover::after {
+  opacity: .64;
+}
+
+.popup__support {
+  border-radius: 8px;
+  background: #fff;
+  bottom: 96px;
+  min-width: 100px;
+  min-height: 100px;
+  position: fixed;
+  right: 8px;
+  bottom: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 50px 50px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 50px 50px 0 rgba(0, 0, 0, 0.1);
+  max-width: 96%;
+  overflow: hidden;
+  width: 392px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transition-duration: .24s;
+          transition-duration: .24s;
+  -webkit-transition-property: background, opacity, -webkit-transform;
+  transition-property: background, opacity, -webkit-transform;
+  transition-property: background, opacity, transform;
+  transition-property: background, opacity, transform, -webkit-transform;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  z-index: 999999999;
+}
+
+.popup__support .hidden {
+  display: none;
+}
+
+.popup__support .head {
+  background: url(/static/images/photos/SupportBG.svg);
+  width: 100%;
+  height: 152px;
+  padding: 0 32px;
+  font-weight: 500;
+  color: #323232;
+  font-size: 20px;
+}
+
+@media (max-width: 375px) {
+  .popup__support .head {
+    margin-bottom: 20px;
+  }
+}
+
+.popup__support .head .popup-close {
+  background: url(/static/images/ui-icons/close.png) no-repeat center rgba(0, 0, 0, 0.2);
+  width: 20px;
+  height: 20px;
+  background-size: 60%;
+  margin-left: auto;
+  margin-top: 16px;
+  cursor: pointer;
+  margin-top: 16px;
+  margin-right: 46px;
+  padding: 3px;
+  border-radius: 50%;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s;
+}
+
+.popup__support .head .popup-close:hover {
+  background: url(/static/images/ui-icons/close.png) no-repeat center rgba(0, 0, 0, 0.4);
+  background-size: 60%;
+}
+
+.popup__support .content .main-container {
+  margin-left: 32px;
+  margin-right: 32px;
+  padding: 16px 24px;
+  border-radius: 10px;
+  background: white;
+  margin-top: -70px;
+  -webkit-box-shadow: 0px 2px 6px #00103014;
+          box-shadow: 0px 2px 6px #00103014;
+  overflow-y: auto;
+  max-height: calc(100% - 100px);
+}
+
+.popup__support .content .main-container .title {
+  color: #36424c;
+  display: block;
+  -webkit-box-flex: 8;
+      -ms-flex-positive: 8;
+          flex-grow: 8;
+  font-size: 20px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.4px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.popup__support .content .main-container .description {
+  color: #36424c;
+  font-size: 15px;
+  font-stretch: normal;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: -0.32px;
+  line-height: 1.4;
+  padding: 0 0 8px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.popup__support .content .main-container .description a {
+  color: #74c044;
+  text-decoration: none;
+}
+
+.popup__support .content .main-container .description a:hover {
+  text-decoration: underline;
+}
+
+.popup__support .content .main-container .connect_with {
+  margin-top: 10px;
+}
+
+.popup__support .content .main-container .connect_with .messengers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.popup__support .content .main-container .connect_with .messengers a:first-child svg {
+  width: 29px;
+  height: 29px;
+}
+
+.popup__support .content .main-container .connect_with .messengers svg {
+  width: 24px;
+  height: 24px;
+  fill: #74c044;
+  margin-right: 15px;
+  -webkit-transition: fill 0.2s;
+  transition: fill 0.2s;
+}
+
+.popup__support .content .main-container .connect_with .messengers svg:hover {
+  fill: #64A63B;
+}
+
+.popup__support .content .main-container .callback {
+  margin-top: 20px;
+}
+
+.popup__support .content .main-container .callback .cta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.popup__support .content .main-container .callback .cta input {
+  border: none;
+  height: 40px;
+  border-radius: 8px 0px 0px 8px;
+  padding-left: 15px;
+  font-size: 16px;
+  width: 80%;
+}
+
+.popup__support .content .main-container .callback .cta .sendPhone {
+  height: 40px;
+  border-radius: 0px 8px 8px 0px;
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid transparent;
+  border-left: 1px solid #eee;
+  cursor: pointer;
+  -webkit-transition: background 0.2s, border 0.2s;
+  transition: background 0.2s, border 0.2s;
+}
+
+.popup__support .content .main-container .callback .cta .sendPhone svg {
+  fill: #74c044;
+  -webkit-transition: fill 0.2s;
+  transition: fill 0.2s;
+}
+
+.popup__support .content .main-container .callback .cta .sendPhone:hover {
+  background: #74c044;
+  border: 1px solid #74c044;
+}
+
+.popup__support .content .main-container .callback .cta .sendPhone:hover svg {
+  fill: white;
+}
+
+.popup__support .content .main-container .mail {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 10px;
+  line-height: 1.3;
+}
+
+.popup__support .content .main-container .mail span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.popup__support .content .mail-container {
+  margin-left: 32px;
+  margin-right: 32px;
+  padding: 16px 24px;
+  border-radius: 10px;
+  background: white;
+  margin-top: -70px;
+  -webkit-box-shadow: 0px 2px 6px #00103014;
+          box-shadow: 0px 2px 6px #00103014;
+  overflow-y: auto;
+  max-height: calc(100% - 100px);
+  margin-bottom: 32px;
+}
+
+.popup__support .content .mail-container p {
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.popup__support .content .mail-container input {
+  width: calc(100% - 20px);
+  height: 40px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding-left: 15px;
+}
+
+.popup__support .content .mail-container input,
+.popup__support .content .mail-container textarea {
+  font-size: 16px;
+}
+
+.popup__support .content .mail-container textarea {
+  max-height: 200px;
+  border-radius: 8px;
+  resize: vertical;
+  max-width: 100%;
+  width: calc(100% - 20px);
+  border: 1px solid #eee;
+  padding-left: 15px;
+  min-height: 50px;
+  padding-top: 10px;
+}
+
+.popup__support .content .mail-container button {
+  width: 100%;
+  height: 46px;
+  border-radius: 8px;
+  background: #74c044;
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  border: none;
+  margin-top: 15px;
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+
+.popup__support .content .mail-container button:hover {
+  background: #64A63B;
+}
+/*# sourceMappingURL=PopupSupport.css.map */

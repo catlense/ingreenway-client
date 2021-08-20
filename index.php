@@ -32,6 +32,7 @@
         include 'modules/popup__Join.php';
         include 'modules/popup__Cart.php';
         include 'modules/popup__Cookies.php';
+        include 'modules/popup__Support.php';
     ?>
 
     <div class="swiper-container main-slider">
