@@ -5,6 +5,7 @@ header.pc {
   transition: margin 0.3s;
   background: #fff;
   z-index: 999;
+  top: 0;
 }
 
 header.pc .up-line {

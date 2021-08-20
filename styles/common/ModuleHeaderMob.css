@@ -6,6 +6,7 @@ header.mobile {
   z-index: 999;
   -webkit-transition: margin 0.2s;
   transition: margin 0.2s;
+  top: 0;
 }
 
 header.mobile .container {

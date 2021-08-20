@@ -1,6 +1,6 @@
 <header class="mobile">
     <div class="container main-content">
-        <div class="logo">
+        <div class="logo" onclick='window.location.href = "/"'>
             <img src="/static/images/mini-logo.svg" alt="" class="mini_logo">
             <img src="/static/images/logo.svg" alt="" class="default_logo">
         </div>

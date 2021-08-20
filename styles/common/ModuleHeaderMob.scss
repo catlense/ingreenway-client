@@ -6,6 +6,7 @@ header.mobile {
     width: 100%;
     z-index: 999;
     transition: margin.2s;
+    top: 0;
     .container {
         &.main-content {
             height: 50px;

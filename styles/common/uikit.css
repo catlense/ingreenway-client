@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(/static/fonts/getfonts.css);
 * {
   outline: none;
@@ -79,6 +80,10 @@ footer.mobile {
   transition: -webkit-transform 0.5s;
   transition: transform 0.5s;
   transition: transform 0.5s, -webkit-transform 0.5s;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
 }
 
 .popup-wrapper.active {
@@ -101,6 +106,33 @@ footer.mobile {
 
 .popup-wrapper .closePopup:hover {
   opacity: .7;
+}
+
+.breadcrumb a {
+  color: #929292;
+  font-size: 12px;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+  margin-right: 21px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.breadcrumb a:hover {
+  color: black;
+}
+
+.breadcrumb a::after {
+  content: "—";
+  position: absolute;
+  right: -16px;
+  color: #B4B4B4;
+  top: -1px;
+}
+
+.breadcrumb a:last-child::after {
+  content: "";
 }
 
 @media (max-width: 890px) {
