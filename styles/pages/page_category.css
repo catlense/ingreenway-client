@@ -23,4 +23,8 @@ h1.title span {
 .catalog-block h1.title span {
   font-size: 16px;
 }
+
+.catalog-block .productItem {
+  max-width: 30%;
+}
 /*# sourceMappingURL=page_category.css.map */

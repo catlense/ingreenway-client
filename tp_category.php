@@ -36,7 +36,7 @@
     ?>
 
     <div class="container font-gotham">
-        <?
+        <?php
         $breadcrumb = ['/'=>'Главная', '/shop/home'=>'Категория продукта'];
         include 'modules/breadcrumb.php';
         ?>
