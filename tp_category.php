@@ -42,15 +42,11 @@
         ?>
 
         <h1 class="title">Дом <span>/ 3</span></h1>
-        <div class="filters">
-            <!-- Filters -->
-        </div>
+        <div class="filters-block">asdasd</div>
         <div class="catalog-block">
             <h1 class="title">Природный пятновыводитель <span>/ 1</span></h1>
             <div class="catalog-list">
                 <?php
-                    $product = ['id'=>1, 'title'=>'Название продукта #3', 'link'=>'/product', 'price'=>350, 'mark' => ['new'], 'image'=>'/static/images/products/3.jpg'];
-                    include 'modules/product.php';
                     $product = ['id'=>1, 'title'=>'Название продукта #3', 'link'=>'/product', 'price'=>350, 'mark' => ['new'], 'image'=>'/static/images/products/3.jpg'];
                     include 'modules/product.php';
                 ?>
@@ -65,6 +61,7 @@
 
     <!-- UI scripts -->
     <script src="/js/ui/flash.js"></script>
+    <script src="/js/ui/category.js"></script>
 
 </body>
 </html>

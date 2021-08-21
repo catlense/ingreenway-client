@@ -74,12 +74,12 @@
 }
 
 .popup__support .head {
-  background: url(/static/images/photos/SupportBG.svg);
+  background: #74c044;
   width: 100%;
   height: 152px;
   padding: 0 32px;
   font-weight: 500;
-  color: #323232;
+  color: white;
   font-size: 20px;
 }
 
@@ -90,10 +90,9 @@
 }
 
 .popup__support .head .popup-close {
-  background: url(/static/images/ui-icons/close.png) no-repeat center rgba(0, 0, 0, 0.2);
+  background: url(/static/images/ui-icons/close.png) no-repeat center;
   width: 20px;
   height: 20px;
-  background-size: 60%;
   margin-left: auto;
   margin-top: 16px;
   cursor: pointer;
@@ -109,9 +108,8 @@
   transition: background 0.2s;
 }
 
-.popup__support .head .popup-close:hover {
-  background: url(/static/images/ui-icons/close.png) no-repeat center rgba(0, 0, 0, 0.4);
-  background-size: 60%;
+.popup__support .content {
+  background: url(/static/images/photos/SupportBG.svg);
 }
 
 .popup__support .content .main-container {
@@ -255,14 +253,17 @@
   fill: white;
 }
 
-.popup__support .content .main-container .mail {
+.popup__support .content .mail {
   text-align: center;
   font-size: 12px;
   margin-top: 10px;
   line-height: 1.3;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
-.popup__support .content .main-container .mail span {
+.popup__support .content .mail span {
   text-decoration: underline;
   cursor: pointer;
 }
@@ -278,7 +279,6 @@
           box-shadow: 0px 2px 6px #00103014;
   overflow-y: auto;
   max-height: calc(100% - 100px);
-  margin-bottom: 32px;
 }
 
 .popup__support .content .mail-container p {

@@ -8,13 +8,13 @@
             <?=$cart['title'];?>
         </div>
         <div class="count">
-            <p>Количество:</p>
+            <p>Quantity:</p>
             <div class="edit-count">
                 <div class="minus btn-amount" data-id="<?php echo $randomInt; ?>">-</div>
                 <input type="number" value="<?=$cart['count'];?>" placeholder="0" id="<?php echo $randomInt; ?>" data="<?=$cart['price'];?>">
                 <div class="plus btn-amount" data-id="<?php echo $randomInt; ?>">+</div>
             </div>
-            <p style="margin-left: 20px;font-size:14px;"><span class="price"><?=$cart['price'];?></span> ₽</p>
+            <p class="price_p"><span class="price"><?=$cart['price'];?></span> ₽</p>
         </div>
     </div>
     <div class="total-price">

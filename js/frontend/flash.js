@@ -13,7 +13,7 @@ if (flashTimer.el) {
         fetch('/modules/front.php?method=get_flash_time')
             .then(response => response.json())
             .then(date => {
-                if (date[0].days) {
+                if (date[0].days || date[0].days == 0) {
                     if (date[0].days.toString().slice(-1) == 1) {
                         flashTimer.timerText.innerText = 'день'
                         flashTimer.timerTextOst.innerText = 'остался'

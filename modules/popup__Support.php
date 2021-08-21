@@ -9,7 +9,7 @@
             <div class="main-container support ">
                 <div class="title">Уважаемые клиенты!</div>
                 <div class="description">
-                    Ответы на часто задаваемые вопросы вопросы находятся <a href="/faq">тут</a>, возможно там есть ответ на Ваш вопрос
+                     Ответы на популярные вопросы уже даны в рубрике "Вопрос ответ" <a href="/faq">тут</a>.
                 </div>
                 <div class="description">
                     Для получения быстрого ответа используйте мессенджеры, оперативные ответы на сообщения с 11:00 до 22:00 по московскому времени
@@ -43,10 +43,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="mail">
-                    Если нужна связь с руководством, у Вас есть предложения для сотрудничества, пожалуйста, <span class="open-mail">напишите нам</span>
-                </div>
             </div>
+            
             <div class="mail-container support hidden">
                 <p>Ваше имя</p>
                 <input type="text" class="username font-roboto" placeholder="Ваше имя">
@@ -58,6 +56,9 @@
                 <textarea name="" id="" cols="30" rows="10" placeholder="Сообщение" class="font-roboto"></textarea>
 
                 <button class="send font-gotham">Отправить</button>
+            </div>
+            <div class="mail">
+                Если нужна связь с руководством, у Вас есть предложения для сотрудничества, пожалуйста, <span class="open-mail">напишите нам</span>
             </div>
         </div>
     </div>

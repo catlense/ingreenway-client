@@ -56,21 +56,20 @@
         display: none;
     }
     .head {
-        background: url(/static/images/photos/SupportBG.svg);
+        background: $primaryGreenColor;
         width: 100%;
         height: 152px;
         padding: 0 32px;
         font-weight: 500;
-        color: $blackText;
+        color: white;
         font-size: 20px;
         @media(max-width: 375px) {
             margin-bottom: 20px;
         }
         .popup-close {
-            background: url(/static/images/ui-icons/close.png) no-repeat center rgba(0, 0, 0, 0.2);
+            background: url(/static/images/ui-icons/close.png) no-repeat center;
             width: 20px;
             height: 20px;
-            background-size: 60%;
             margin-left: auto;
             margin-top: 16px;
             cursor: pointer;
@@ -81,13 +80,10 @@
             margin-left: auto;
             display: flex;
             transition: background.2s;
-            &:hover {
-                background: url(/static/images/ui-icons/close.png) no-repeat center rgba(0, 0, 0, 0.4);
-                background-size: 60%;
-            }
         }
     }
     .content {
+        background: url(/static/images/photos/SupportBG.svg);
         .main-container {
             margin-left: 32px;
             margin-right: 32px;
@@ -193,15 +189,18 @@
                     }
                 }
             }
-            .mail {
-                text-align: center;
-                font-size: 12px;
-                margin-top: 10px;
-                line-height: 1.3;
-                span {
-                    text-decoration: underline;
-                    cursor: pointer;
-                }
+        }
+        .mail {
+            text-align: center;
+            font-size: 12px;
+            margin-top: 10px;
+            line-height: 1.3;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            span {
+                text-decoration: underline;
+                cursor: pointer;
             }
         }
         .mail-container {
@@ -214,7 +213,6 @@
             box-shadow: 0px 2px 6px #00103014;
             overflow-y: auto;
             max-height: calc(100% - 100px);
-            margin-bottom: 32px;
             p {
                 margin-bottom: 10px;
                 margin-top: 15px;

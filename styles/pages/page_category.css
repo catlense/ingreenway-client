@@ -7,6 +7,10 @@ h1.title span {
   color: #929292;
 }
 
+.container {
+  position: relative;
+}
+
 .catalog-block {
   width: 100%;
   margin-bottom: 50px;
@@ -50,5 +54,17 @@ h1.title span {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.filters-block {
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  position: sticky;
+  top: 200px;
+  position: -webkit-sticky;
+  height: 30px;
+  background: white;
+  z-index: 99;
 }
 /*# sourceMappingURL=page_category.css.map */

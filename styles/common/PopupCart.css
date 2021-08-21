@@ -15,6 +15,8 @@
     padding: 40px 20px;
     max-height: 100%;
     overflow-y: auto;
+    max-width: calc(100% - 40px);
+    width: 100%;
   }
 }
 

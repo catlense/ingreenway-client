@@ -16,11 +16,19 @@
     padding: 24px;
     &.visible {
         transform: translateY(-10%) translateX(-5%);
+        @media(max-width: 588px) {
+            transform: translateY(0%) translateX(0%);
+            max-width: calc(100% - 48px);
+        }
     }
     .title {
         font-weight: 500;
         font-size: 24px;
         line-height: 34px;
+        @media(max-width: 588px) {
+            font-size: 18px;
+            line-height: 24px;
+        }
     }
     p {
         font-size: 16px;
@@ -29,6 +37,10 @@
         display: block;
         padding: 5px 0;
         font-weight: 400;
+        @media(max-width: 588px) {
+            margin-top: 5px;
+            font-size: 15px;
+        }
     }
     .row_line {
         display: flex;

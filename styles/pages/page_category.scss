@@ -7,6 +7,10 @@ h1.title {
     }
 }
 
+.container {
+    position: relative;
+}
+
 .catalog-block {
     width: 100%;
     margin-bottom: 50px;
@@ -35,4 +39,16 @@ h1.title {
         flex-wrap: wrap;
         justify-content: space-between;
     }
+}
+
+.filters-block {
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: sticky;
+    top: 200px;
+    position: -webkit-sticky;
+    height: 30px;
+    background: white;
+    z-index: 99;
 }
