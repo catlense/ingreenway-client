@@ -47,10 +47,14 @@
         </div>
         <div class="catalog-block">
             <h1 class="title">Природный пятновыводитель <span>/ 1</span></h1>
-            <?php
-                $product = ['id'=>1, 'title'=>'Название продукта #3', 'link'=>'/product', 'price'=>350, 'mark' => ['new'], 'image'=>'/static/images/products/3.jpg'];
-                include 'modules/product.php';
-            ?>
+            <div class="catalog-list">
+                <?php
+                    $product = ['id'=>1, 'title'=>'Название продукта #3', 'link'=>'/product', 'price'=>350, 'mark' => ['new'], 'image'=>'/static/images/products/3.jpg'];
+                    include 'modules/product.php';
+                    $product = ['id'=>1, 'title'=>'Название продукта #3', 'link'=>'/product', 'price'=>350, 'mark' => ['new'], 'image'=>'/static/images/products/3.jpg'];
+                    include 'modules/product.php';
+                ?>
+            </div>
         </div>
     </div>
 
