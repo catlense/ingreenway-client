@@ -42,7 +42,22 @@
         ?>
 
         <h1 class="title">Дом <span>/ 3</span></h1>
-        <div class="filters-block">asdasd</div>
+        <div class="filters-block pc">
+            <div class="filters-container">
+                <div class="filter-item">Назначение</div>
+                <div class="filter-item">Бренд</div>
+                <div class="filter-item">Цена</div>
+                <div class="filter-item selector">Только по акции</div>
+                <div class="filter-item selector">Только новинки</div>
+                <a href="#">Сбросить</a>
+            </div>
+            <div class="filters-container right">
+                <p>Сортировать</p>
+                <div class="sort-panel">
+                    по умолчанию
+                </div>
+            </div>
+        </div>
         <div class="catalog-block">
             <h1 class="title">Природный пятновыводитель <span>/ 1</span></h1>
             <div class="catalog-list">

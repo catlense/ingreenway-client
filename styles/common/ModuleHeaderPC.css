@@ -5,6 +5,7 @@ header.pc {
   transition: margin 0.3s;
   background: #fff;
   z-index: 999;
+  border-bottom: 1px solid #F8F8F8;
   top: 0;
 }
 
