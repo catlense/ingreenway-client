@@ -8,7 +8,7 @@
             <?=$cart['title'];?>
         </div>
         <div class="count">
-            <p>Quantity:</p>
+            <p>Количество:</p>
             <div class="edit-count">
                 <div class="minus btn-amount" data-id="<?php echo $randomInt; ?>">-</div>
                 <input type="number" value="<?=$cart['count'];?>" placeholder="0" id="<?php echo $randomInt; ?>" data="<?=$cart['price'];?>">

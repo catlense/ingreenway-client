@@ -3,7 +3,6 @@
     <div class="popup__support">
         <div class="head font-gotham">
             <div class="popup-close"></div>
-            Помощь и служба поддержки
         </div>
         <div class="content font-gotham">
             <div class="main-container support ">
@@ -12,7 +11,7 @@
                      Ответы на популярные вопросы уже даны в рубрике "Вопрос ответ" <a href="/faq">тут</a>.
                 </div>
                 <div class="description">
-                    Для получения быстрого ответа используйте мессенджеры, оперативные ответы на сообщения с 11:00 до 22:00 по московскому времени
+                    Для получения быстрого ответа используйте мессенджеры с 11:00 до 22:00 по МСК.
                 </div>
                 <div class="connect_with">
                     <p>Связаться через:</p>

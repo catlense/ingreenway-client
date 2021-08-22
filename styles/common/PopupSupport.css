@@ -6,7 +6,7 @@
   bottom: 30px;
   border-radius: 50px;
   z-index: 99999;
-  background: url(/static/images/photos/avatar.jpg) center;
+  background: url(/static/images/photos/supportManager.png) center;
   background-size: 150%;
   border: 4px solid white;
   cursor: pointer;
@@ -74,13 +74,15 @@
 }
 
 .popup__support .head {
-  background: #74c044;
+  background: url(/static/images/photos/supportManager.png) center 274px;
+  background-size: cover;
   width: 100%;
-  height: 152px;
-  padding: 0 32px;
+  height: 182px;
   font-weight: 500;
   color: white;
   font-size: 20px;
+  border-radius: 10px;
+  margin-top: -3px;
 }
 
 @media (max-width: 375px) {
@@ -97,7 +99,7 @@
   margin-top: 16px;
   cursor: pointer;
   margin-top: 16px;
-  margin-right: 46px;
+  margin-right: 26px;
   padding: 3px;
   border-radius: 50%;
   margin-left: auto;
@@ -118,7 +120,6 @@
   padding: 16px 24px;
   border-radius: 10px;
   background: white;
-  margin-top: -70px;
   -webkit-box-shadow: 0px 2px 6px #00103014;
           box-shadow: 0px 2px 6px #00103014;
   overflow-y: auto;
@@ -138,6 +139,7 @@
   letter-spacing: -0.4px;
   line-height: 1.2;
   margin: 0;
+  padding-bottom: 8px;
 }
 
 .popup__support .content .main-container .description {
@@ -180,6 +182,14 @@
   height: 29px;
 }
 
+.popup__support .content .main-container .connect_with .messengers a:nth-child(2) svg {
+  fill: #4a90e2;
+}
+
+.popup__support .content .main-container .connect_with .messengers a:last-child svg {
+  fill: #27a6e5;
+}
+
 .popup__support .content .main-container .connect_with .messengers svg {
   width: 24px;
   height: 24px;
@@ -206,7 +216,6 @@
           align-items: center;
   border: 1px solid #eee;
   border-radius: 8px;
-  margin-top: 10px;
 }
 
 .popup__support .content .main-container .callback .cta input {
@@ -274,7 +283,6 @@
   padding: 16px 24px;
   border-radius: 10px;
   background: white;
-  margin-top: -70px;
   -webkit-box-shadow: 0px 2px 6px #00103014;
           box-shadow: 0px 2px 6px #00103014;
   overflow-y: auto;
