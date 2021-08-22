@@ -1,14 +1,52 @@
-.popup__support-opener {
+.popup__support-pulsate {
   position: fixed;
-  width: 64px;
-  height: 64px;
+  width: 88px;
+  height: 88px;
   right: 30px;
   bottom: 30px;
   border-radius: 50px;
   z-index: 99999;
+}
+
+.callpy_custom_mobile_photo__pulse-2 {
+  -webkit-animation: pulsate-two 1s ease-out;
+          animation: pulsate-two 1s ease-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+  background-color: #1279c5;
+}
+
+.callpy_custom_mobile_photo__pulse-1 {
+  -webkit-animation: pulsate-one 1.5s ease-out;
+          animation: pulsate-one 1.5s ease-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.callpy_custom_mobile_photo__pulse-1,
+.callpy_custom_mobile_photo__pulse-2 {
+  border: 2px solid #1279c5;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0;
+  z-index: -1;
+}
+
+.popup__support-opener {
+  position: fixed;
+  width: 88px;
+  height: 88px;
+  border-radius: 50px;
+  z-index: 99999;
   background: url(/static/images/photos/supportManager.png) center;
   background-size: 150%;
-  border: 4px solid white;
+  border: 2px solid white;
   cursor: pointer;
 }
 
@@ -336,5 +374,57 @@
 
 .popup__support .content .mail-container button:hover {
   background: #64A63B;
+}
+
+@-webkit-keyframes pulsate-one {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1.5, 1.5);
+            transform: scale(1.5, 1.5);
+  }
+}
+
+@keyframes pulsate-one {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1.5, 1.5);
+            transform: scale(1.5, 1.5);
+  }
+}
+
+@-webkit-keyframes pulsate-two {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1.5, 1.5);
+            transform: scale(1.5, 1.5);
+  }
+}
+
+@keyframes pulsate-two {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1.5, 1.5);
+            transform: scale(1.5, 1.5);
+  }
 }
 /*# sourceMappingURL=PopupSupport.css.map */

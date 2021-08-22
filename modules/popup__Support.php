@@ -1,4 +1,8 @@
-<div class="popup__support-opener"></div>
+<div class="popup__support-pulsate">
+    <div class="popup__support-opener"></div>
+    <div class="callpy_custom_mobile_photo__pulse-1"></div>
+    <div class="callpy_custom_mobile_photo__pulse-2"></div>
+</div>
 <div class="popup-wrapper pS">
     <div class="popup__support">
         <div class="head font-gotham">
