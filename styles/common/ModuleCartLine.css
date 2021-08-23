@@ -55,6 +55,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   margin-left: 10px;
+  width: 80%;
 }
 
 .cart-line .count {
@@ -130,7 +131,8 @@
 
 @media (max-width: 650px) {
   .cart-line .total-price {
-    display: none;
+    margin-left: auto;
+    margin-top: 10px;
   }
 }
 /*# sourceMappingURL=ModuleCartLine.css.map */

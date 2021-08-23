@@ -70,10 +70,6 @@
   z-index: -1;
 }
 
-.popup__support-opener:hover::after {
-  opacity: .64;
-}
-
 .popup__support {
   border-radius: 8px;
   background: #fff;

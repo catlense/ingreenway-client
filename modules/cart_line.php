@@ -16,9 +16,9 @@
             </div>
             <p class="price_p"><span class="price"><?=$cart['price'];?></span> ₽</p>
         </div>
-    </div>
-    <div class="total-price">
-        <span class="total_price" id="<?=$randomInt;?>"><?=$cart['price'] * $cart['count'];?></span> ₽
+        <div class="total-price">
+            <span class="total_price" id="<?=$randomInt;?>"><?=$cart['price'] * $cart['count'];?></span> ₽
+        </div>
     </div>
     <div class="delete">
         <i title="Удалить" class="mdi mdi-delete-outline delete-product" member-basket-id="1493087" basket-member-product="2140" basket-member-id="3825001"></i>

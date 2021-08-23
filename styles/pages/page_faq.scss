@@ -1,0 +1,118 @@
+@import "../common/vars.scss";
+.faq {
+    margin-top: 60px;
+    .head {
+        width: 100%;
+        height: 300px;
+        background: url(/static/images/photos/support_bg.jpg) no-repeat left;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+        flex-direction: column;
+        h1 {
+            margin-bottom: 0;
+            color: white;
+            font-size: 38px;
+        }
+        p {
+            font-size: 18px;
+        }
+    }
+}
+
+body {
+    background: #fafafa;
+}
+
+.support-content {
+    padding: 25px 20px 30px;
+    margin: 0 auto;
+    display: flex;
+    @media(max-width: 890px) {
+        flex-direction: column;
+        padding: 0;
+        margin-top: 20px;
+    }
+    .answers {
+        position: sticky;
+        top: 170px;
+        bottom: 0;
+        display: table;
+        padding: 10px;
+        border: 1px solid #eee;
+        background: white;
+        width: 290px;
+        height: min-content;
+        @media(max-width: 890px) {
+            width: calc(100% - 20px);
+            position: static;
+        }
+        .title {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0;
+            padding-bottom: 10px;
+            text-transform: uppercase;
+            color: $blackText;
+            border-bottom: 1px solid #d8d8d8;
+        }
+        a {
+            border-bottom: 1px solid #e6e6e6;
+            color: #36414c;
+            font-size: 16px;
+            font-weight: 300;
+            padding-left: 6px;
+            line-height: 47px;
+            display: block;
+            text-decoration: none;
+            transition: border-bottom.2s;
+            &.active {
+                font-weight: bold;
+            }
+            &:last-child {
+                border-bottom: 1px solid transparent;
+            }
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    .answer {
+        width: calc(100% - 430px);
+        margin-left: auto;
+        padding: 20px 40px;
+        background: #fff;
+        border: 1px solid #eee;
+        @media(max-width: 890px) {
+            width: calc(100% - 40px);
+            margin-top: 40px;
+            padding: 10px 20px;
+        }
+        h1 {
+            font-weight: 500;
+            border-bottom: 1px solid #000;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            font-size: 32px;
+            position: sticky;
+            top: 100px;
+            background: white;
+            margin-top: 0;
+            @media(max-width: 890px) {
+                position: static;
+            }
+        }
+        p {
+            line-height: 1.5;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.categories {
+    display: none;
+}

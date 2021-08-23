@@ -4,3 +4,6 @@ RewriteCond %{REQUEST_FILENAME} !-f
 
 RewriteRule ^shop/(.+)$ tp_category.php?name=$1
 RewriteRule ^product/(.+)$ tp_product.php?id=$1
+
+RewriteRule ^faq/(.+)$ tp_help.php?id=$1
+RewriteRule faq tp_help.php
