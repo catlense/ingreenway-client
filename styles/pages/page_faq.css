@@ -1,5 +1,5 @@
 .faq {
-  margin-top: 60px;
+  margin-top: 10px;
 }
 
 .faq .head {
@@ -95,8 +95,15 @@ body {
   font-size: 16px;
   font-weight: 300;
   padding-left: 6px;
-  line-height: 47px;
-  display: block;
+  min-height: 47px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-decoration: none;
   -webkit-transition: border-bottom 0.2s;
   transition: border-bottom 0.2s;
@@ -120,6 +127,7 @@ body {
   padding: 20px 40px;
   background: #fff;
   border: 1px solid #eee;
+  color: #323232;
 }
 
 @media (max-width: 890px) {
@@ -153,6 +161,23 @@ body {
   line-height: 1.5;
   font-size: 18px;
   margin-bottom: 15px;
+}
+
+.support-content .answer a {
+  font-weight: 500;
+  color: #74c044;
+}
+
+.support-content .answer ul {
+  padding-left: 0;
+}
+
+.support-content .answer ul li {
+  color: #74c044;
+}
+
+.support-content .answer ul li p {
+  color: #323232;
 }
 
 .categories {

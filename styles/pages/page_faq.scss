@@ -1,6 +1,6 @@
 @import "../common/vars.scss";
 .faq {
-    margin-top: 60px;
+    margin-top: 10px;
     .head {
         width: 100%;
         height: 300px;
@@ -65,8 +65,11 @@ body {
             font-size: 16px;
             font-weight: 300;
             padding-left: 6px;
-            line-height: 47px;
-            display: block;
+            min-height: 47px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            display: flex;
+            align-items: center;
             text-decoration: none;
             transition: border-bottom.2s;
             &.active {
@@ -86,6 +89,7 @@ body {
         padding: 20px 40px;
         background: #fff;
         border: 1px solid #eee;
+        color: $blackText;
         @media(max-width: 890px) {
             width: calc(100% - 40px);
             margin-top: 40px;
@@ -109,6 +113,19 @@ body {
             line-height: 1.5;
             font-size: 18px;
             margin-bottom: 15px;
+        }
+        a {
+            font-weight: 500;
+            color: $primaryGreenColor;
+        }
+        ul {
+            padding-left: 0;
+            li {
+                color: $primaryGreenColor;
+                p {
+                    color: $blackText;
+                }
+            }
         }
     }
 }

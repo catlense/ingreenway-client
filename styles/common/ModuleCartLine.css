@@ -69,10 +69,15 @@
   margin-top: 10px;
 }
 
+.cart-line .count p {
+  font-size: 12px;
+}
+
 @media (min-width: 650px) {
   .cart-line .count p {
     margin-bottom: 0;
     margin-top: 0;
+    font-size: 16px;
   }
 }
 
@@ -127,6 +132,8 @@
   margin-left: 0px;
   font-size: 16px;
   color: #323232;
+  margin-left: auto;
+  margin-top: -25px;
 }
 
 @media (max-width: 650px) {
@@ -134,5 +141,10 @@
     margin-left: auto;
     margin-top: 10px;
   }
+}
+
+.cart-line .articul {
+  color: #929292;
+  margin-top: 15px;
 }
 /*# sourceMappingURL=ModuleCartLine.css.map */

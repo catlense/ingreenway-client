@@ -4,7 +4,7 @@ session_start();
 
 $method = $_GET['method'];
 
-$flashEndTime = strtotime('2021-08-22 18:00:00');
+$flashEndTime = strtotime('2022-08-22 18:00:00');
 
 if(!$method) return;
 

@@ -7,6 +7,9 @@
         <div class="title">
             <?=$cart['title'];?>
         </div>
+        <div class="articul">
+            Арт. # 1
+        </div>
         <div class="count">
             <p>Количество:</p>
             <div class="edit-count">

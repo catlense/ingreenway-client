@@ -47,7 +47,9 @@
             @media(min-width: 650px) {
                 margin-bottom: 0;
                 margin-top: 0;
+                font-size: 16px;
             }
+            font-size: 12px;
         }
         .edit-count {
             margin-left: 15px;
@@ -87,9 +89,15 @@
         margin-left: 0px;
         font-size: 16px;
         color: $blackText;
+        margin-left: auto;
+        margin-top: -25px;
         @media(max-width: 650px) {
             margin-left: auto;
             margin-top: 10px;
         }
+    }
+    .articul {
+        color: $grayText;
+        margin-top: 15px;
     }
 }

@@ -35,70 +35,41 @@
         include 'modules/popup__Support.php';
     ?>
 
-
-    <div class="faq">
-        <div class="head font-gotham">
-            <h1>Раздел помощи и поддержки</h1>
-            <p>Контекстный помощник</p>
-        </div>
-    </div>
-
     <div class="container">
         <?php
             $breadcrumb = ['/'=>'Главная', '/shop/home'=>'Категория продукта'];
             include 'modules/breadcrumb.php';
         ?>
     </div>
+
+    <div class="container faq">
+        <div class="head font-gotham">
+            <h1>Раздел помощи и поддержки</h1>
+            <p>Контекстный помощник</p>
+        </div>
+    </div>
+
     <div class="support-content container font-gotham">
         <div class="answers">
-            <p class="title">Доставка</p>
-            <a href="/faq/payment">Оплата наличными</a>
-            <a href="/faq/delivery" class="active">Доставка</a>
-            <a href="/faq/payback">Возврат товара</a>
+            <p class="title">Способ доставки</p>
+            <a href="/faq/payment">Курьером в пределах МКАД</a>
+            <a href="/faq/delivery">Курьерская служба «СДЭК»</a>
+            <a href="/faq/payback">Курьерская служба «MAJOR EXPRESS»</a>
+            <a href="/faq/payback">Срочная курьерская в пределах МКАД</a>
+            <a href="/faq/payback">Почта России</a>
+            <a href="/faq/payback">Курьером в пределах 30 км от МКАД</a>
+            <a href="/faq/payback">По России</a>
         </div>
         <div class="answer">
             <h1>Доставка</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor dolorum dignissimos veniam vitae exercitationem tenetur officiis quas unde odit earum quos repudiandae delectus, quod a iste et voluptatibus aperiam.</p>
+            <p>Обработка, отправка и доставка заказов <a href="/">ingreenway.club</a> осуществляется в зависимости от адреса доставки.</p>
+            <p><strong>Вы можете оформить доставку заказа одним из следующих способов:</strong></p>
+            <ul>
+                <li><p>Курьерская доставка по Москве в пределах МКАД.</p></li>
+                <li><p>Курьерская доставка по Москве в пределах МКАД.</p></li>
+                <li><p>Курьерская доставка по Москве в пределах МКАД.</p></li>
+                <li><p>Курьерская доставка по Москве в пределах МКАД.</p></li>
+            </ul>
         </div>
     </div>
 
@@ -110,19 +81,7 @@
     <!-- UI scripts -->
     <script src="/js/ui/flash.js"></script>
 
-    <script>
-        document.querySelector('.support-content .answers').style.top = 
-            (document.querySelector('.flash') ? document.querySelector('.flash').clientHeight : 0) + 
-            (window.innerWidth < 890 ? document.querySelector('header.mobile').clientHeight : document.querySelector('header.pc').clientHeight) + 20 + 'px';
-        document.querySelector('.faq').style.marginTop = (document.querySelector('.flash') ? document.querySelector('.flash').clientHeight : 0) + 
-            (window.innerWidth < 890 ? document.querySelector('header.mobile').clientHeight : document.querySelector('header.pc').clientHeight) + 'px';
-        document.querySelector('.support-content h1').style.top = (document.querySelector('.flash') ? document.querySelector('.flash').clientHeight : 0) + 
-            (window.innerWidth < 890 ? document.querySelector('header.mobile').clientHeight : document.querySelector('header.pc').clientHeight) + 'px';
-    </script>
-    <style>
-        .breadcrumb {
-            margin-top: 30px !important;
-        }
-    </style>
+    <!-- Page scripts -->
+    <script src="/js/ui/help.js"></script>
 </body>
 </html>

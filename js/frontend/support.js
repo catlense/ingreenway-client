@@ -1,5 +1,5 @@
-document.querySelector('.main-container.support').style.maxHeight = window.innerHeight - 250 + 'px';
-document.querySelector('.mail-container.support').style.maxHeight = window.innerHeight - 250 + 'px';
+document.querySelector('.main-container.support').style.maxHeight = window.innerHeight - 350 + 'px';
+document.querySelector('.mail-container.support').style.maxHeight = window.innerHeight - 350 + 'px';
 
 document.querySelector('.popup__support .popup-close').onclick = () => {
     document.querySelector('.popup-wrapper.pS').classList.remove('active')
