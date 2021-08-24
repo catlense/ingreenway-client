@@ -112,6 +112,59 @@ footer.mobile {
     }
 }
 
+.btn-product {
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 16px;
+    border: none;
+    display: flex;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    background: #fff;
+    color: $primaryGreenColor;
+    cursor: pointer;
+    align-items: center;
+    transition: background.2s, color.2s;
+    span.count {
+        width: 32px;
+        height: 32px;
+        display: flex;
+        border-radius: 50px;
+        align-items: center;
+        justify-content: center;
+        background: #fff;
+        margin-left: 10px;
+        transition: background.2s;
+        &.active {
+            background: $primaryGreenColor;
+            color: white;
+        }
+    }
+    svg {
+        height: 16px;
+        fill: $primaryGreenColor;
+        transition: fill.2s;
+    }
+    &:hover {
+        background: $primaryGreenColor;
+        color: white;
+        span.count {
+            background: $primaryGreenColor;
+            fill: white;
+        }
+        svg {
+            fill: white;
+        }
+        &:hover {
+            background: $primaryGreenColorDark;
+            span.count:not(.active) {
+                background: $primaryGreenColorDark
+            }
+        }
+    }
+}
+
 @media(max-width: 890px) {
     header.pc,
     footer.pc {

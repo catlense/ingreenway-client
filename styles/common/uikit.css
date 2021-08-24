@@ -135,6 +135,80 @@ footer.mobile {
   content: "";
 }
 
+.btn-product {
+  border-radius: 50px;
+  padding: 10px;
+  padding-left: 16px;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  background: #fff;
+  color: #74c044;
+  cursor: pointer;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: background 0.2s, color 0.2s;
+  transition: background 0.2s, color 0.2s;
+}
+
+.btn-product span.count {
+  width: 32px;
+  height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #fff;
+  margin-left: 10px;
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s;
+}
+
+.btn-product span.count.active {
+  background: #74c044;
+  color: white;
+}
+
+.btn-product svg {
+  height: 16px;
+  fill: #74c044;
+  -webkit-transition: fill 0.2s;
+  transition: fill 0.2s;
+}
+
+.btn-product:hover {
+  background: #74c044;
+  color: white;
+}
+
+.btn-product:hover span.count {
+  background: #74c044;
+  fill: white;
+}
+
+.btn-product:hover svg {
+  fill: white;
+}
+
+.btn-product:hover:hover {
+  background: #64A63B;
+}
+
+.btn-product:hover:hover span.count:not(.active) {
+  background: #64A63B;
+}
+
 @media (max-width: 890px) {
   header.pc,
   footer.pc {
