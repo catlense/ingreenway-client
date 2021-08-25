@@ -7,3 +7,5 @@ RewriteRule ^product/(.+)$ tp_product.php?id=$1
 
 RewriteRule ^faq/(.+)$ tp_help.php?id=$1
 RewriteRule faq tp_help.php
+
+RewriteRule news tp_news.php

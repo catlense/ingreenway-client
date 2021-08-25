@@ -127,6 +127,7 @@
             box-shadow: 0px 2px 6px #00103014;
             overflow-y: auto;
             max-height: calc(100% - 100px);
+            margin-top: 32px;
             .title {
                 color: #36424c;
                 display: block;
@@ -249,6 +250,8 @@
         .mail-container {
             margin-left: 32px;
             margin-right: 32px;
+            margin-bottom: 32px;
+            margin-top: 32px;
             padding: 16px 24px;
             border-radius: 10px;
             background: white;

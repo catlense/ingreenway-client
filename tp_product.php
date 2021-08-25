@@ -174,7 +174,7 @@
     <!-- Page scripts -->
     <script src="/js/ui/product.js"></script>
 
-    <script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="/libs/zoom/jquery.zoom.min.js"></script>
     <script>
         $('#main_image').zoom({

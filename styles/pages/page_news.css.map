@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,OAAO;CACtB;;AAED,AAAA,EAAE,AAAA,MAAM,CAAC;EACL,SAAS,EAAE,IAAI;EACf,KAAK,ECLG,OAAO;EDMf,aAAa,EAAE,CAAC;EAChB,WAAW,EAAE,IAAI;CACpB",
+    "sources": [
+        "page_news.scss",
+        "../common/vars.scss"
+    ],
+    "names": [],
+    "file": "page_news.css"
+}

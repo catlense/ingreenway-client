@@ -1,0 +1,11 @@
+@import "../common/vars.scss";
+body {
+    background: #f8f8f8;
+}
+
+h1.title {
+    font-size: 60px;
+    color: $blackText;
+    margin-bottom: 0;
+    font-weight: bold;
+}

@@ -6,6 +6,7 @@ document.querySelector('.popup__support .popup-close').onclick = () => {
     document.querySelector('.mail-container.support').classList.add('hidden')
     document.querySelector('.main-container.support').classList.remove('hidden')
     document.body.style.overflowY = 'auto'
+    document.querySelector('.mail').style.display = 'block'
 }
 
 document.querySelector('.popup__support-opener').onclick = () => {
@@ -16,6 +17,7 @@ document.querySelector('.popup__support-opener').onclick = () => {
 document.querySelector('.open-mail').onclick = () => {
     document.querySelector('.mail-container.support').classList.remove('hidden')
     document.querySelector('.main-container.support').classList.add('hidden')
+    document.querySelector('.mail').style.display = 'none'
 }
 
 let phoneMask = IMask(
