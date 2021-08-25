@@ -147,11 +147,7 @@ footer.mobile {
             svg {
                 width: 28px;
                 height: 28px;
-                fill: $blackText;
                 transition: fill.2s;
-                &:hover {
-                    fill: $primaryGreenColor;
-                }
             }
         }
     }
