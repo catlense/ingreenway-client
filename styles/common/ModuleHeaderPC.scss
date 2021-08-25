@@ -120,6 +120,13 @@ header.pc {
                     letter-spacing: 0.03em;
                     position: relative;
                     transition: color.2s;
+                    &.active {
+                        color: $primaryGreenColor;
+                        &:after {
+                            transform: scaleX(1);
+                            transform-origin: left;
+                        }
+                    }
                     &:after {
                         content: "";
                         display: block;

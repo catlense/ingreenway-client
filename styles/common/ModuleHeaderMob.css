@@ -280,7 +280,7 @@ header.mobile .categories ul li.active i::before {
 
 header.mobile .mobile-menu {
   position: fixed;
-  height: 100%;
+  height: calc(100% - 60px);
   width: 100%;
   background: #fff;
   z-index: 9999999;
@@ -295,7 +295,6 @@ header.mobile .mobile-menu {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  overflow-y: auto;
 }
 
 header.mobile .mobile-menu .consultant-info {

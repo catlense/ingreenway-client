@@ -11,15 +11,15 @@
                         </a>
                     </li>
                     <li>
-                        <a href="mailto:office@greenway.group">
-                            <i class="mdi mdi-email-outline"></i>
-                            office@greenway.group
-                        </a>
-                    </li>
-                    <li>
                         <a>
                             <i class="mdi mdi-clock-outline"></i>
                             с 6:00 до 22:00 (МСК)
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:office@greenway.group">
+                            <i class="mdi mdi-email-outline"></i>
+                            office@greenway.group
                         </a>
                     </li>
                 </ul>

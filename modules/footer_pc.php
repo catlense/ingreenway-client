@@ -50,13 +50,13 @@
                     <i class="mdi mdi-phone-in-talk-outline"></i>
                     8-800-2345-800
                 </a>
-                <a href="/support/payment" class="footer__link">
-                    <i class="mdi mdi-email-outline"></i>
-                    office@greenway.group
-                </a>
                 <a href="#" class="footer__link">
                     <i class="mdi mdi-clock-outline"></i>
                     с 6:00 до 22:00 (МСК)
+                </a>
+                <a href="/support/payment" class="footer__link">
+                    <i class="mdi mdi-email-outline"></i>
+                    office@greenway.group
                 </a>
             </div>
         </div>

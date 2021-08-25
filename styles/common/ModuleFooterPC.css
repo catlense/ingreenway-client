@@ -122,7 +122,6 @@ footer .content .content__footer .link_block a:hover {
 footer .content .content__footer .link_block a:hover img,
 footer .content .content__footer .link_block a:hover svg {
   opacity: .8;
-  fill: #74c044;
 }
 
 footer .content .content__footer .links {

@@ -158,7 +158,6 @@ footer.mobile .container > ul > li a.link:hover {
 footer.mobile .container > ul > li a.link:hover img,
 footer.mobile .container > ul > li a.link:hover svg {
   opacity: .8;
-  fill: #74c044;
 }
 
 footer.mobile .footerSocial {

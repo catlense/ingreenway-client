@@ -43,10 +43,9 @@ openMenu.onclick = () => {
         _$('.default_logo').style.display = 'block'
         _$('.default_logo').style.height = '40px'
         _$().style.overflow = 'hidden'
-        mobileMenu.style.height = window.innerHeight - _$('header').clientHeight + 'px'
-        if (_$('.categories')) {
-            mobileMenu.style.marginTop = '-50px'
-        }
+        mobileMenu.style.height = window.innerHeight -
+            ((document.querySelector('.flash') ? document.querySelector('.flash').clientHeight : 0) +
+                (document.querySelector('header.pc') ? document.querySelector('header.pc').clientHeight : document.querySelector('header.mobile').clientHeight)) + 'px'
     } else {
         _$('.mini_logo').style.display = 'block'
         _$('.default_logo').style.display = 'none'

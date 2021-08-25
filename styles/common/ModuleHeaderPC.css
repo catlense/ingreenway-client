@@ -194,6 +194,17 @@ header.pc .categories .container > ul > li > a {
   transition: color 0.2s;
 }
 
+header.pc .categories .container > ul > li > a.active {
+  color: #74c044;
+}
+
+header.pc .categories .container > ul > li > a.active:after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
 header.pc .categories .container > ul > li > a:after {
   content: "";
   display: block;
