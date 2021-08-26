@@ -8,6 +8,12 @@ h1.title {
     color: $blackText;
     margin-bottom: 0;
     font-weight: bold;
+    @media(max-width: 992px) {
+        font-size: 36px;
+    }
+    @media(max-width: 394px) {
+        font-size: 28px;
+    }
 }
 
 .news-container {

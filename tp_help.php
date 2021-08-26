@@ -20,9 +20,6 @@
 
     <!-- Page styles -->
     <link rel="stylesheet" href="/styles/pages/page_faq.css">
-
-    <!-- Product Module -->
-    <link rel="stylesheet" href="/styles/common/ModuleProduct.css">
 </head>
 <body>
     <?php

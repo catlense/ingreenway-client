@@ -1,0 +1,182 @@
+@import "../common/vars.scss";
+.preview-block {
+    width: 100%;
+    height: 300px;
+    background: url(/static/images/photos/list_bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    margin-top: 9px;
+    &::after {
+        width: 100%;
+        height: 100%;
+        content: "";
+        background: rgba(0, 0, 0, 0.3);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    h1 {
+        font-weight: 500;
+        margin-bottom: 15px;
+        color: white;
+        z-index: 9899;
+        margin-top: 0;
+        font-size: 2em;
+    }
+    p {
+        position: relative;
+        z-index: 9999;
+        color: white;
+        margin-bottom: 0;
+        margin-top: 0;
+        text-align: center;
+    }
+}
+
+.contacts-block {
+    display: flex;
+    color: $blackText;
+    margin-top: 50px;
+    .first-block {
+        font-size: 64px;
+        font-weight: bold;
+    }
+}
+
+.second_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $blackText;
+    margin-top: 50px;
+    @media(max-width: 7940px) {
+        flex-direction: column;
+    }
+    h1 {
+        font-size: 64px;
+        font-weight: bold;
+        @media(max-width: 940px) {
+            font-size: 32px;
+        }
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
+        @media(max-width: 940px) {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p {
+            margin: 0;
+            margin-top: 20px;
+        }
+        a,
+        h2 {
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 22px;
+            color: $blackText;
+            margin: 0;
+            margin-top: 20px;
+            transition: color.2s;
+        }
+        a:hover {
+            color: $primaryGreenColor;
+        }
+    }
+}
+
+.third_block {
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    color: $blackText;
+    @media (max-width: 940px) {
+        flex-direction: column;
+    }
+    .list {
+        width: 25%;
+        @media (max-width: 940px) {
+            width: 100%;
+        }
+        h1 {
+            font-weight: 500;
+        }
+        .searchOffice {
+            border: 1px solid #eee;
+            display: flex;
+            align-items: center;
+            text-align: left;
+            font-size: 16px;
+            letter-spacing: -0.28px;
+            color: #413D58 !important;
+            opacity: 0.75;
+            padding: 0 16px 0 8px;
+            border: solid 1px #DCDCDC;
+            font-weight: 400 !important;
+            height: 50px;
+            margin-bottom: 20px;
+            i {
+                font-size: 22px;
+            }
+            input {
+                width: 85%;
+                margin-left: auto;
+                border: none;
+                height: 18px;
+                font-size: 14px;
+            }
+        }
+        .offices {
+            margin-top: 20px;
+            .office {
+                width: 100%;
+                margin-top: 25px;
+                margin-bottom: 20px;
+                padding-top: 20px;
+                border-top: 1px solid gainsboro;
+                .title {
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+                .closeTime {
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 20px;
+                    display: block;
+                    margin-top: 8px;
+                }
+                &:last-child {
+                    border-bottom: 1px solid gainsboro;
+                    padding-bottom: 20px;
+                }
+            }
+            a {
+                color: rgb(48, 48, 48);
+                text-decoration: underline;
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+    }
+    .map {
+        width: 70%;
+        margin-left: auto;
+        height: auto;
+        background: #f8f8f8;
+        min-height: 250px;
+        @media (max-width: 940px) {
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+}
