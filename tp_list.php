@@ -109,6 +109,69 @@
         </div>
     </div>
 
+    <div class="container">
+        <div class="addresses font-gotham">
+            <h1>Офисы продаж компании</h1>
+    
+            <div class="table">
+                <div class="line head">
+                    <p class="code">Код филиала</p>
+                    <p class="country">Страна</p>
+                    <p class="address">Адрес</p>
+                    <p class="phone">Телефон</p>
+                    <p class="time">Время работы</p>
+                </div>
+                <div class="line">
+                    <p class="code">378</p>
+                    <p class="country">Armenia</p>
+                    <p class="address">Yerevan Gyulbenkyan 30/3</p>
+                    <p class="phone">
+                        <span>+374 12 320023</span>
+                        <span>+37499320323</span>
+                    </p>
+                    <p class="time">
+                        <span>Пн: 11:00 - 19:00</span>
+                        <span>Вт: 11:00 - 19:00</span>
+                        <span>Ср: 11:00 - 19:00</span>
+                        <span>Чт: 11:00 - 19:00</span>
+                        <span>Пт: 11:00 - 19:00</span>
+                        <span>Сб: 11:00 - 19:00</span>
+                    </p>
+                </div>
+                <div class="line">
+                    <p class="code">378</p>
+                    <p class="country">Armenia</p>
+                    <p class="address">Yerevan Gyulbenkyan 30/3</p>
+                    <p class="phone">
+                        <span>+374 12 320023</span>
+                        <span>+37499320323</span>
+                    </p>
+                    <p class="time">
+                        <span>Пн: 11:00 - 19:00</span>
+                        <span>Вт: 11:00 - 19:00</span>
+                        <span>Ср: 11:00 - 19:00</span>
+                        <span>Чт: 11:00 - 19:00</span>
+                        <span>Пт: 11:00 - 19:00</span>
+                        <span>Сб: 11:00 - 19:00</span>
+                    </p>
+                </div>
+            </div>
+            <a href="#addresses" class="showAllOfficesTable">Показать ещё</a>
+        </div>
+    </div>
+
+    <div class="font-bebas">
+        <div class="indexBlock indexJoinBlock">
+            <div class="head font-gotham">
+                <h1>Экология жизни, пространства и человека</h1>
+                <p>Мы предлагаем каждому человеку присоединиться к заботе об экологии окружающей среды. Это не просто работа, а стиль жизни, который открывает новые горизонты и безграничные возможности</p>
+            </div>
+            <div class="withbg">
+                <button class="font-bebas">Присоединиться</button>
+            </div>
+        </div>
+    </div>
+
     <?php
     include 'modules/footer_pc.php';
     include 'modules/footer_mob.php';
@@ -116,6 +179,9 @@
 
     <!-- UI scripts -->
     <script src="/js/ui/flash.js"></script>
+
+    <!-- page scripts -->
+    <script src="/js/frontend/list.js"></script>
 </body>
 
 </html>
