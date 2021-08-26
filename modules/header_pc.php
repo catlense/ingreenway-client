@@ -35,6 +35,11 @@
                 </div>
                 <div class="partner">
                     <img src="/static/images/ui-icons/user.svg" alt="">
+                    <div class="consultant__popup">
+                        <p>Консультант бренда</p>
+                        <p>Левко Эмма id 9416322</p>
+                        <a href="/consultant">Подробнее <i class="mdi mdi-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
         </div>

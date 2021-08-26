@@ -292,4 +292,69 @@ header.pc .categories .container > ul > li:hover ul {
 header.pc .categories .container > ul li {
   list-style: none;
 }
+
+header.pc .partner {
+  position: relative;
+}
+
+header.pc .partner:hover .consultant__popup {
+  display: block;
+}
+
+header.pc .consultant__popup {
+  margin-left: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-transition: height 0.2s;
+  transition: height 0.2s;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  width: 275px;
+  background: white;
+  border: 3px solid #eee;
+  z-index: 999;
+  padding: 15px;
+  display: none;
+}
+
+header.pc .consultant__popup span {
+  padding-left: 5px;
+  opacity: .3;
+  font-style: italic;
+}
+
+header.pc .consultant__popup a {
+  text-transform: none;
+  font-size: 14px;
+  line-height: normal;
+  color: #74c044;
+  font-weight: 500;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+
+header.pc .consultant__popup a:hover {
+  text-decoration: underline;
+}
+
+header.pc .consultant__popup p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+header.pc .consultant__popup p:first-child {
+  margin-top: 10px;
+}
+
+header.pc .consultant__popup p.id {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+header.pc .consultant__popup p.name {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
 /*# sourceMappingURL=ModuleHeaderPC.css.map */
