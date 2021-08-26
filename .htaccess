@@ -13,3 +13,5 @@ RewriteRule ^news/(.+)$ tp_news.php?page=$1 [L,QSA]
 RewriteRule news tp_news.php [L,QSA]
 
 RewriteRule list tp_list.php [L,QSA]
+
+RewriteRule privacy tp_privacy.php [L,QSA]
