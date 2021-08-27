@@ -15,3 +15,7 @@ RewriteRule news tp_news.php [L,QSA]
 RewriteRule list tp_list.php [L,QSA]
 
 RewriteRule privacy tp_privacy.php [L,QSA]
+
+RewriteRule ^order/(.+)$ tp_order.php?id=$1 [L,QSA]
+
+RewriteRule consultant tp_consultant.php [L,QSA]
