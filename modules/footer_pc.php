@@ -62,7 +62,7 @@
         </div>
 
         <div class="container">
-            <div class="footerFooter">
+            <div class="footerFooter-pc">
                 <p>Маркетплейс бренд-консультанта Greenway, был разработан с использованием текстовых и графических материалов с официального сайта компании mygreenway.com © 2021 ingreenway.club. Все права защищены.</p>
             </div>
         </div>

@@ -31,7 +31,7 @@
 }
 
 .main-slider .main-slider_pagination {
-  z-index: 999;
+  z-index: 99;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

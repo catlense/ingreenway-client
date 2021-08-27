@@ -58,6 +58,10 @@ openMenu.onclick = () => {
     }
 }
 
+if (document.querySelectorAll('.categories')[1].offsetHeight != 0) {
+    mobileMenu.style.marginTop = '-50px'
+}
+
 _$('.consultant-info').onclick = () => {
     _$('.consultant-info').classList.toggle('active')
 }

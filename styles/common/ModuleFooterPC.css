@@ -392,14 +392,14 @@ footer .content .social__container-block .social__link:hover {
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-.footerFooter {
+.footerFooter-pc {
   padding-top: 0px;
   width: 92%;
   margin: 0 auto;
   border-top: 1px solid #eee;
 }
 
-.footerFooter p {
+.footerFooter-pc p {
   font-size: 14px;
   color: #929292;
   line-height: 1.6;
@@ -407,11 +407,11 @@ footer .content .social__container-block .social__link:hover {
   text-align: center;
 }
 
-.footerFooter p:nth-child(2) {
+.footerFooter-pc p:nth-child(2) {
   margin-top: 10px;
 }
 
-.footerFooter p a {
+.footerFooter-pc p a {
   text-decoration: none;
   color: #74c044;
 }
