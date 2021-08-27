@@ -60,11 +60,11 @@
                 </a>
             </div>
         </div>
-        <div class="social__container-block">
-            <div class="social__link" onclick="window.location.href = '/info/order';">Оформление заказа</div>
-            <div class="social__link" onclick="window.location.href = '/info/payment';">Оплата</div>
-            <div class="social__link" onclick="window.location.href = '/info/offer';">Публичная оферта</div>
-            <div class="social__link" onclick="window.location.href = '/info/policy';">Политика конфиденциальности</div>
+
+        <div class="container">
+            <div class="footerFooter">
+                <p>Маркетплейс бренд-консультанта Greenway, был разработан с использованием текстовых и графических материалов с официального сайта компании mygreenway.com © 2021 ingreenway.club. Все права защищены.</p>
+            </div>
         </div>
     </div>
 </footer>
