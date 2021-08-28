@@ -51,8 +51,24 @@
                 <span class="bar"></span>
                 <label>Телефон</label>
             </div>
-            <p class="title selected">Выбраные товары</p>
+            <p class="title selected">Выбраные товары <img src="/static/images/ui-icons/attention.svg" class="open-attention" data="main" alt=""></p>
+            <div class="attention attention-main">
+                <div class="close">&times;</div>
+                <p>Доставка кальянов и табачной продукции не осуществляется. Зарезервированные в заказе позиции забронированы именно за вами. Данные позиции будут отложены и доступны к покупке в фирменном магазине или пункте выдачи Sweet Smoke Вашего города при получении своего заказа по предъявлению паспорта (18+).</p>
+            </div>
             <div class="selected-products">
+                <?php
+                $carts = [
+                    ['id'=>1, 'image'=>'/static/images/products/1.jpg', 'title'=>'Веллаб Артемия / Wellab Artemia, 30 капсул', 'price'=>490, 'count'=>1],
+                    ['id'=>2, 'image'=>'/static/images/products/2.jpg', 'title'=>'Веллаб Артемия / Wellab Artemia, 40 капсул', 'price'=>690, 'count'=>3],
+                ];
+                foreach($carts as $cart) {
+                    include 'modules/cart_line.php';
+                }
+                ?>
+            </div>
+            <p class="title selected">Рекомендованные товары</p>
+            <div class="recommended-products">
                 <?php
                 $carts = [
                     ['id'=>1, 'image'=>'/static/images/products/1.jpg', 'title'=>'Веллаб Артемия / Wellab Artemia, 30 капсул', 'price'=>490, 'count'=>1],
@@ -65,8 +81,29 @@
             </div>
         </div>
         <div class="right-column">
-            <div class="container">
-                
+            <div class="container font-gotham">
+                <div class="head-price">
+                    <p class="count_product">Общее количество товаров 3 шт. <img src="/static/images/ui-icons/attention.svg" class="open-attention" data="count" alt=""></p>
+                    <div class="attention attention-count hidden">
+                        <div class="close">&times;</div>
+                        <p>Доставка кальянов и табачной продукции не осуществляется. Зарезервированные в заказе позиции забронированы именно за вами. Данные позиции будут отложены и доступны к покупке в фирменном магазине или пункте выдачи Sweet Smoke Вашего города при получении своего заказа по предъявлению паспорта (18+).</p>
+                    </div>
+                </div>
+                <div class="pay_del">
+                    <p class="title">Оплата и доставка</p>
+                    <p class="delivery">Доставка - <span>ожидает согласования</span></p>
+                    <p class="payment">Оплата - <span>ожидает согласования</span></p>
+                </div>
+                <div class="result_price">
+                    <p class="res">Итого</p>
+                    <p class="price">3 690.00 <sup>RUB</sup></p>
+                </div>
+            </div>
+            <button class="font-gotham">Оформить заказ</button>
+            <div class="container font-gotham">
+                <p class="privacy">
+                    Оформляя заказ, вы соглашаетесь с <a href="/privacy">Политикой обработки персональных данных</a> и принимаете условия <a href="/offer">Оферты</a>.
+                </p>
             </div>
         </div>
     </div>
@@ -82,6 +119,9 @@
 
     <!-- UI scripts -->
     <script src="/js/ui/flash.js"></script>
+
+    <!-- Page scripts -->
+    <script src="/js/ui/order.js"></script>
 </body>
 
 </html>

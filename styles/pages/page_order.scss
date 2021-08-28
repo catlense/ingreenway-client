@@ -7,6 +7,9 @@ body {
     display: flex;
     margin-top: 10px;
     position: relative;
+    @media(max-width: 768px) {
+        flex-direction: column-reverse;
+    }
 }
 
 .left-column {
@@ -55,6 +58,7 @@ body {
             font-size: 14px;
             text-align: center;
             margin-top: 10px;
+            position: static;
         }
     }
     p.title {
@@ -67,6 +71,14 @@ body {
     }
     p.selected {
         margin-top: 70px;
+        display: flex;
+        align-items: center;
+        img {
+            width: 18px;
+            margin-left: 8px;
+            height: 18px;
+            cursor: pointer;
+        }
     }
     .modify_input {
         position: relative;
@@ -135,13 +147,162 @@ body {
     }
 }
 
+.attention {
+    padding: 5px 15px;
+    background: #f9f9f9;
+    border-radius: 9px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    height: min-content;
+    transition: height.5s, margin.5s, padding.5s;
+    p {
+        line-height: 1.35;
+    }
+    &.hidden {
+        height: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+        margin: 0px !important;
+    }
+    .close {
+        font-size: 18px;
+        position: absolute;
+        right: 8px;
+        top: 8px;
+        border-radius: 50%;
+        background: #e6e6e6;
+        width: 22px;
+        height: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        user-select: none;
+        cursor: pointer;
+        transition: background.2s;
+        &:hover {
+            background: #d1d1d1;
+        }
+    }
+}
+
 .right-column {
     position: sticky;
     top: 150px;
-    width: calc(35% - 80px);
-    padding: 50px 40px;
+    width: calc(40% - 0px);
     max-width: 460px;
     background: #fff;
     margin-left: auto;
     height: min-content;
+    color: $blackText;
+    .head-price {
+        padding-bottom: 0px;
+        border-bottom: 1px solid #e9e9e9;
+    }
+    p.count_product {
+        display: flex;
+        align-items: center;
+        img {
+            width: 18px;
+            margin-left: 8px;
+            height: 18px;
+            cursor: pointer;
+        }
+    }
+    .pay_del {
+        padding-bottom: 15px;
+        border-bottom: 1px solid #eee;
+        .title {
+            font-weight: 600;
+            font-size: 20px;
+            margin-bottom: 15px;
+            color: #282f36;
+        }
+        .delivery {
+            span {
+                font-weight: bold;
+            }
+        }
+        .payment {
+            margin-top: -5px;
+        }
+    }
+    .result_price {
+        display: flex;
+        justify-content: flex-start;
+        line-height: 60px;
+        @media(max-width: 1480px) {
+            flex-direction: column;
+        }
+        @media(max-width: 768px) {
+            flex-direction: row;
+        }
+        p.res {
+            font-size: 20px;
+            margin-top: 32px;
+        }
+        p.price {
+            font-size: 48px;
+            font-weight: bold;
+            margin-left: 20px;
+            white-space: nowrap;
+            @media(max-width: 1480px) {
+                margin-top: 0;
+            }
+            @media(max-width:1310px) {
+                font-size: 38px;
+                margin-top: -15px;
+            }
+            @media(max-width:1130px) {
+                margin-left: 0;
+            }
+            @media(max-width:1050px) {
+                margin-left: 20px;
+                margin-top: -25px;
+                font-size: 28px;
+            }
+            @media(max-width: 910px) {
+                margin-left: 0;
+            }
+            @media(max-width: 768px) {
+                margin-top: 40px;
+                margin-left: auto;
+            }
+            @media(max-width: 370px) {
+                font-size: 22px;
+                margin-top: 35px;
+            }
+        }
+    }
+    @media(max-width: 768px) {
+        width: calc(100% - 0px);
+        margin-left: unset;
+        max-width: unset;
+        margin-bottom: 30px;
+        position: static;
+    }
+    button {
+        width: calc(100%);
+        height: 60px;
+        border: none;
+        margin-top: 10px;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: #fff;
+        font-size: 16px;
+        background: $primaryGreenColor;
+        cursor: pointer;
+        @media(max-width: 370px) {
+            width: 100%;
+        }
+    }
+    p.privacy {
+        font-size: 12px;
+        margin-top: 25px;
+        padding-bottom: 20px;
+        line-height: 1.4;
+        a {
+            color: currentColor;
+        }
+    }
 }
