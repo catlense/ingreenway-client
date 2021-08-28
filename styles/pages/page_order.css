@@ -1,0 +1,181 @@
+body {
+  background: #f8f8f8;
+}
+
+.container.order {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  position: relative;
+}
+
+.left-column {
+  width: calc(63% - 80px);
+  padding: 50px 40px;
+  padding-top: 0;
+  background: #fff;
+  color: #323232;
+}
+
+@media (max-width: 768px) {
+  .left-column {
+    width: calc(100% - 80px);
+  }
+}
+
+@media (max-width: 370px) {
+  .left-column {
+    width: calc(100% - 20px);
+    padding: 20px 10px;
+  }
+}
+
+.left-column h1 {
+  margin-top: 0;
+  font-weight: bold;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 210px;
+  background: #fff;
+  z-index: 999;
+  margin-bottom: 0;
+  padding-bottom: 25px;
+  padding-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .left-column h1 {
+    text-align: center;
+    font-size: 1.5em;
+  }
+}
+
+.left-column p.desc {
+  line-height: 1.5;
+  font-size: 16px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #74c044;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 300px;
+  z-index: 9999;
+  width: 100%;
+  margin-top: 0;
+  padding-top: 0px;
+  background: white;
+}
+
+@media (max-width: 768px) {
+  .left-column p.desc {
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+.left-column p.title {
+  font-size: 18px;
+  margin-top: 30px;
+  font-weight: 500;
+}
+
+.left-column input {
+  width: 100%;
+}
+
+.left-column p.selected {
+  margin-top: 70px;
+}
+
+.left-column .modify_input {
+  position: relative;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  /* active state */
+  /* BOTTOM BARS ================================= */
+  /* active state */
+}
+
+.left-column .modify_input input {
+  font-size: 16px;
+  padding: 10px;
+  padding-left: 0;
+  display: block;
+  width: calc(100% - 10px);
+  border: none;
+  border-bottom: 1px solid #dfdfdf;
+  padding-bottom: 20px;
+}
+
+.left-column .modify_input input:focus {
+  outline: none;
+}
+
+.left-column .modify_input label {
+  color: #999;
+  font-size: 16px;
+  position: absolute;
+  pointer-events: none;
+  top: 15px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+.left-column .modify_input input:focus ~ label,
+.left-column .modify_input input:valid ~ label {
+  top: -15px;
+  font-size: 12px;
+  color: #74c044;
+  font-weight: 500;
+}
+
+.left-column .modify_input .bar {
+  position: absolute;
+  display: block;
+  width: 100%;
+}
+
+.left-column .modify_input .bar:before,
+.left-column .modify_input .bar:after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: 0;
+  position: absolute;
+  background: #74c044;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+.left-column .modify_input .bar:before {
+  left: 50%;
+}
+
+.left-column .modify_input .bar:after {
+  right: 50%;
+}
+
+.left-column .modify_input input:focus ~ .bar:before,
+.left-column .modify_input input:focus ~ .bar:after {
+  width: 50%;
+}
+
+.right-column {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 150px;
+  width: calc(35% - 80px);
+  padding: 50px 40px;
+  max-width: 460px;
+  background: #fff;
+  margin-left: auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+/*# sourceMappingURL=page_order.css.map */

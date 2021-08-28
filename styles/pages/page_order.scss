@@ -1,0 +1,147 @@
+@import "../common/vars.scss";
+body {
+    background: #f8f8f8;
+}
+
+.container.order {
+    display: flex;
+    margin-top: 10px;
+    position: relative;
+}
+
+.left-column {
+    width: calc(63% - 80px);
+    padding: 50px 40px;
+    padding-top: 0;
+    background: #fff;
+    color: $blackText;
+    @media(max-width: 768px) {
+        width: calc(100% - 80px);
+    }
+    @media(max-width: 370px) {
+        width: calc(100% - 20px);
+        padding: 20px 10px;
+    }
+    h1 {
+        margin-top: 0;
+        font-weight: bold;
+        position: sticky;
+        top: 210px;
+        background: #fff;
+        z-index: 999;
+        margin-bottom: 0;
+        padding-bottom: 25px;
+        padding-top: 40px;
+        @media(max-width: 768px) {
+            text-align: center;
+            font-size: 1.5em;
+        }
+    }
+    p.desc {
+        line-height: 1.5;
+        font-size: 16px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid $primaryGreenColor;
+        position: sticky;
+        top: 300px;
+        z-index: 9999;
+        width: 100%;
+        margin-top: 0;
+        padding-top: 0px;
+        background: white;
+        @media(max-width: 768px) {
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+            font-size: 14px;
+            text-align: center;
+            margin-top: 10px;
+        }
+    }
+    p.title {
+        font-size: 18px;
+        margin-top: 30px;
+        font-weight: 500;
+    }
+    input {
+        width: 100%;
+    }
+    p.selected {
+        margin-top: 70px;
+    }
+    .modify_input {
+        position: relative;
+        margin-bottom: 30px;
+        margin-top: 50px;
+        input {
+            font-size: 16px;
+            padding: 10px;
+            padding-left: 0;
+            display: block;
+            width: calc(100% - 10px);
+            border: none;
+            border-bottom: 1px solid #dfdfdf;
+            padding-bottom: 20px;
+        }
+        input:focus {
+            outline: none;
+        }
+        label {
+            color: #999;
+            font-size: 16px;
+            position: absolute;
+            pointer-events: none;
+            top: 15px;
+            transition: 0.2s ease all;
+            -moz-transition: 0.2s ease all;
+            -webkit-transition: 0.2s ease all;
+        }
+        /* active state */
+        input:focus~label,
+        input:valid~label {
+            top: -15px;
+            font-size: 12px;
+            color: $primaryGreenColor;
+            font-weight: 500;
+        }
+        /* BOTTOM BARS ================================= */
+        .bar {
+            position: absolute;
+            display: block;
+            width: 100%;
+        }
+        .bar:before,
+        .bar:after {
+            content: "";
+            height: 2px;
+            width: 0;
+            bottom: 0;
+            position: absolute;
+            background: $primaryGreenColor;
+            transition: 0.2s ease all;
+            -moz-transition: 0.2s ease all;
+            -webkit-transition: 0.2s ease all;
+        }
+        .bar:before {
+            left: 50%;
+        }
+        .bar:after {
+            right: 50%;
+        }
+        /* active state */
+        input:focus~.bar:before,
+        input:focus~.bar:after {
+            width: 50%;
+        }
+    }
+}
+
+.right-column {
+    position: sticky;
+    top: 150px;
+    width: calc(35% - 80px);
+    padding: 50px 40px;
+    max-width: 460px;
+    background: #fff;
+    margin-left: auto;
+    height: min-content;
+}
