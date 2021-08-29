@@ -1,0 +1,141 @@
+body {
+  background: #fbfbfb;
+}
+
+.faq {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #323232;
+  margin-top: 30px;
+}
+
+.faq h1 {
+  max-width: 80%;
+  font-size: 80px;
+  line-height: 1;
+  margin: 24px 0px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Bebas Neue" !important;
+  font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+  .faq h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 575px) {
+  .faq h1 {
+    font-size: 30px;
+  }
+}
+
+.faq a {
+  font-weight: 500;
+  color: #74c044;
+}
+
+.faq .faqList {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+@media (max-width: 1023px) {
+  .faq .faqList {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 576px) {
+  .faq .faqList {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+.faq .faqList .faqOpener {
+  cursor: pointer;
+  height: 105px;
+  -webkit-transition: height 0.45s;
+  transition: height 0.45s;
+  overflow-y: hidden;
+}
+
+.faq .faqList .faqOpener.active {
+  height: 500px;
+}
+
+.faq .faqList .faqOpener p.title {
+  font-family: Roboto, Calibri, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.8;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 22px 0;
+  border-bottom: 1px solid #cdcdcd;
+  position: relative;
+}
+
+.faq .faqList .faqOpener p.title::after, .faq .faqList .faqOpener p.title::before {
+  content: '';
+  width: 11px;
+  height: 1px;
+  background: #000;
+  right: 0;
+  position: absolute;
+  top: calc(50% - 1px);
+}
+
+.faq .faqList .faqOpener p.title::after {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transition: -webkit-transform 0.45s;
+  transition: -webkit-transform 0.45s;
+  transition: transform 0.45s;
+  transition: transform 0.45s, -webkit-transform 0.45s;
+}
+
+.faq .faqList .faqOpener.active p.title::after {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.faq .faqList .faqText {
+  padding-left: 50px;
+}
+
+.faq .faqList .faqText p {
+  padding: 10px 0;
+  font-family: Roboto, Calibri, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+.faq .faqList ul {
+  padding-left: 20px;
+}
+
+.faq .faqList ul li {
+  color: #74c044;
+  margin-bottom: 20px;
+}
+
+.faq .faqList ul li span {
+  color: #323232;
+}
+/*# sourceMappingURL=page_terms.css.map */

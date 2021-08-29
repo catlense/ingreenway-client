@@ -21,3 +21,7 @@ RewriteRule ^order/(.+)$ tp_order.php?id=$1 [L,QSA]
 RewriteRule consultant tp_consultant.php [L,QSA]
 
 RewriteRule rules tp_rules.php [L,QSA]
+
+RewriteRule terms tp_terms.php [L,QSA]
+
+RewriteRule condition-reg tp_condition-reg.php [L,QSA]
