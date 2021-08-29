@@ -76,4 +76,7 @@
             </ul>
         </div>
     </div>
+    <div class="language-selector">
+        <?php include 'modules/popup__Language.php'; ?>
+    </div>
 </header>

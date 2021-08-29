@@ -1,0 +1,63 @@
+.language-selector {
+  position: absolute;
+  right: 29px;
+  padding: 20px;
+  background: white;
+  top: 33px;
+  color: #323232;
+  padding-top: 5px;
+  -webkit-box-shadow: -4px 0 20px 0 rgba(65, 61, 88, 0.1);
+          box-shadow: -4px 0 20px 0 rgba(65, 61, 88, 0.1);
+  opacity: 0;
+  z-index: -9999;
+  -webkit-transition: opacity .3s;
+  transition: opacity .3s;
+}
+
+.language-selector.active {
+  opacity: 1;
+  z-index: 99;
+}
+
+@media (max-width: 768px) {
+  .language-container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+.language-container p {
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.language-container select {
+  width: 280px;
+  height: 40px;
+  border: 1px solid #eee;
+  font-size: 14px;
+  margin-top: 10px;
+  padding-left: 10px;
+  max-width: 100%;
+}
+
+.language-container button {
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin-top: 15px;
+  background: #74c044;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s;
+}
+
+.language-container button:hover {
+  background: #64A63B;
+}
+/*# sourceMappingURL=PopupLanguage.css.map */
