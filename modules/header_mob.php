@@ -132,6 +132,11 @@
             <?php include 'modules/popup__Language.php'; ?>
         </div>
     </div>
+    <div class="search-popup">
+        <div class="close-search">&times;</div>
+    </div>
+    <link rel="stylesheet" href="/styles/common/PopupSearchMob.css">
+    <script src="/js/frontend/search_popup-mob.js"></script>
 </header>
 <link rel="stylesheet" href="/styles/common/ModuleHeaderMob.css">
 <script src="/js/ui/mobile-header.js"></script>

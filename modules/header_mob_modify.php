@@ -109,6 +109,7 @@
                 <i class="mdi mdi-arrow-left"></i>
                 Выбор языка
             </div>
+            <?php include 'modules/popup__Language.php'; ?>
         </div>
     </div>
 </header>
