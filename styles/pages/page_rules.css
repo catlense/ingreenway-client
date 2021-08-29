@@ -1,0 +1,160 @@
+.rules {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #323232;
+  margin-top: 10px;
+}
+
+.main_content {
+  width: 80%;
+}
+
+@media (max-width: 1024px) {
+  .main_content {
+    width: 100%;
+  }
+}
+
+.navbar {
+  width: 39%;
+  padding-left: 12em;
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    display: none;
+  }
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #323232;
+  display: block;
+  padding-top: 0.5rem;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.navbar a b {
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+h1 {
+  line-height: 3rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 2.3rem;
+  }
+}
+
+p {
+  line-height: 32px;
+  padding-bottom: 1.5rem;
+  font-size: 20px;
+}
+
+h2 {
+  line-height: 1.25em;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 0;
+  max-width: 80%;
+}
+
+h3 {
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+  font-weight: 500;
+  line-height: 1.25em;
+  margin: 0;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  color: #74c044;
+}
+
+ul li p {
+  color: #323232;
+  padding: 0;
+  margin: 0;
+  display: inline;
+}
+
+.nav-content {
+  width: 100%;
+  height: 187px;
+  background: #fafafa;
+  max-width: none;
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 998px) {
+  .nav-content {
+    height: 115px;
+  }
+}
+
+@media (max-width: 680px) {
+  .nav-content {
+    margin-left: -15px;
+    margin-right: -15px;
+    width: calc(100% + 30px);
+    border-radius: 0px;
+  }
+}
+
+.nav-content .nav-arrow {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  cursor: pointer;
+}
+
+.nav-content .nav-arrow p {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+@media (max-width: 998px) {
+  .nav-content .nav-arrow p {
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=page_rules.css.map */
