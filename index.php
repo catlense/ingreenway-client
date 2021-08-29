@@ -72,31 +72,31 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <?php
-                            $product = ['id'=>1, 'title'=>'Название продукта #1', 'link'=>'/product', 'price'=>350, 'mark' => ['new'], 'image'=>'/static/images/products/1.jpg'];
+                            $product = ['id'=>1, 'title'=>'Название продукта #1', 'link'=>'/product/1', 'price'=>350, 'mark' => ['new'], 'image'=>'/static/images/products/1.jpg'];
                             include 'modules/product.php';
                         ?>
                     </div>
                     <div class="swiper-slide">
                         <?php
-                            $product = ['id'=>1, 'title'=>'Название продукта #2', 'link'=>'/product', 'price'=>350, 'mark' => ['new'], 'image'=>'/static/images/products/2.jpg'];
+                            $product = ['id'=>1, 'title'=>'Название продукта #2', 'link'=>'/product/1', 'price'=>350, 'mark' => ['new'], 'image'=>'/static/images/products/2.jpg'];
                             include 'modules/product.php';
                         ?>
                     </div>
                     <div class="swiper-slide">
                         <?php
-                            $product = ['id'=>1, 'title'=>'Название продукта #3', 'link'=>'/product', 'price'=>350, 'mark' => ['new'], 'image'=>'/static/images/products/3.jpg'];
+                            $product = ['id'=>1, 'title'=>'Название продукта #3', 'link'=>'/product/1', 'price'=>350, 'mark' => ['new'], 'image'=>'/static/images/products/3.jpg'];
                             include 'modules/product.php';
                         ?>
                     </div>
                     <div class="swiper-slide">
                         <?php
-                            $product = ['id'=>1, 'title'=>'Название продукта #4', 'link'=>'/product', 'price'=>350, 'mark' => ['new'], 'image'=>'/static/images/products/1.jpg'];
+                            $product = ['id'=>1, 'title'=>'Название продукта #4', 'link'=>'/product/1', 'price'=>350, 'mark' => ['new'], 'image'=>'/static/images/products/1.jpg'];
                             include 'modules/product.php';
                         ?>
                     </div>
                     <div class="swiper-slide">
                         <?php
-                            $product = ['id'=>1, 'title'=>'Название продукта #5', 'link'=>'/product', 'price'=>350, 'mark' => ['new'], 'image'=>'/static/images/products/2.jpg'];
+                            $product = ['id'=>1, 'title'=>'Название продукта #5', 'link'=>'/product/1', 'price'=>350, 'mark' => ['new'], 'image'=>'/static/images/products/2.jpg'];
                             include 'modules/product.php';
                         ?>
                     </div>
@@ -132,31 +132,31 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <?php
-                            $product = ['id'=>1, 'title'=>'Название продукта #1', 'link'=>'/product', 'price'=>350, 'mark' => ['sale'], 'image'=>'/static/images/products/1.jpg'];
+                            $product = ['id'=>1, 'title'=>'Название продукта #1', 'link'=>'/product/1', 'price'=>350, 'mark' => ['sale'], 'image'=>'/static/images/products/1.jpg'];
                             include 'modules/product.php';
                         ?>
                     </div>
                     <div class="swiper-slide">
                         <?php
-                            $product = ['id'=>1, 'title'=>'Название продукта #2', 'link'=>'/product', 'price'=>350, 'mark' => ['sale', 'hit', 'freeze'], 'image'=>'/static/images/products/2.jpg'];
+                            $product = ['id'=>1, 'title'=>'Название продукта #2', 'link'=>'/product/1', 'price'=>350, 'mark' => ['sale', 'hit', 'freeze'], 'image'=>'/static/images/products/2.jpg'];
                             include 'modules/product.php';
                         ?>
                     </div>
                     <div class="swiper-slide">
                         <?php
-                            $product = ['id'=>1, 'title'=>'Название продукта #3', 'link'=>'/product', 'price'=>350, 'mark' => ['sale'], 'image'=>'/static/images/products/3.jpg'];
+                            $product = ['id'=>1, 'title'=>'Название продукта #3', 'link'=>'/product/1', 'price'=>350, 'mark' => ['sale'], 'image'=>'/static/images/products/3.jpg'];
                             include 'modules/product.php';
                         ?>
                     </div>
                     <div class="swiper-slide">
                         <?php
-                            $product = ['id'=>1, 'title'=>'Название продукта #4', 'link'=>'/product', 'price'=>350, 'mark' => ['sale'], 'image'=>'/static/images/products/1.jpg'];
+                            $product = ['id'=>1, 'title'=>'Название продукта #4', 'link'=>'/product/1', 'price'=>350, 'mark' => ['sale'], 'image'=>'/static/images/products/1.jpg'];
                             include 'modules/product.php';
                         ?>
                     </div>
                     <div class="swiper-slide">
                         <?php
-                            $product = ['id'=>1, 'title'=>'Название продукта #5', 'link'=>'/product', 'price'=>350, 'mark' => ['sale'], 'image'=>'/static/images/products/2.jpg'];
+                            $product = ['id'=>1, 'title'=>'Название продукта #5', 'link'=>'/product/1', 'price'=>350, 'mark' => ['sale'], 'image'=>'/static/images/products/2.jpg'];
                             include 'modules/product.php';
                         ?>
                     </div>
@@ -193,31 +193,31 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <?php
-                            $product = ['id'=>1, 'title'=>'Название продукта #1', 'link'=>'/product', 'price'=>350, 'mark' => ['hit'], 'image'=>'/static/images/products/1.jpg'];
+                            $product = ['id'=>1, 'title'=>'Название продукта #1', 'link'=>'/product/1', 'price'=>350, 'mark' => ['hit'], 'image'=>'/static/images/products/1.jpg'];
                             include 'modules/product.php';
                         ?>
                     </div>
                     <div class="swiper-slide">
                         <?php
-                            $product = ['id'=>1, 'title'=>'Название продукта #2', 'link'=>'/product', 'price'=>350, 'mark' => ['hit'], 'image'=>'/static/images/products/2.jpg'];
+                            $product = ['id'=>1, 'title'=>'Название продукта #2', 'link'=>'/product/1', 'price'=>350, 'mark' => ['hit'], 'image'=>'/static/images/products/2.jpg'];
                             include 'modules/product.php';
                         ?>
                     </div>
                     <div class="swiper-slide">
                         <?php
-                            $product = ['id'=>1, 'title'=>'Название продукта #3', 'link'=>'/product', 'price'=>350, 'mark' => ['hit'], 'image'=>'/static/images/products/3.jpg'];
+                            $product = ['id'=>1, 'title'=>'Название продукта #3', 'link'=>'/product/1', 'price'=>350, 'mark' => ['hit'], 'image'=>'/static/images/products/3.jpg'];
                             include 'modules/product.php';
                         ?>
                     </div>
                     <div class="swiper-slide">
                         <?php
-                            $product = ['id'=>1, 'title'=>'Название продукта #4', 'link'=>'/product', 'price'=>350, 'mark' => ['hit'], 'image'=>'/static/images/products/1.jpg'];
+                            $product = ['id'=>1, 'title'=>'Название продукта #4', 'link'=>'/product/1', 'price'=>350, 'mark' => ['hit'], 'image'=>'/static/images/products/1.jpg'];
                             include 'modules/product.php';
                         ?>
                     </div>
                     <div class="swiper-slide">
                         <?php
-                            $product = ['id'=>1, 'title'=>'Название продукта #5', 'link'=>'/product', 'price'=>350, 'mark' => ['hit'], 'image'=>'/static/images/products/2.jpg'];
+                            $product = ['id'=>1, 'title'=>'Название продукта #5', 'link'=>'/product/1', 'price'=>350, 'mark' => ['hit'], 'image'=>'/static/images/products/2.jpg'];
                             include 'modules/product.php';
                         ?>
                     </div>

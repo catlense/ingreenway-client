@@ -28,10 +28,10 @@
                 Интернет-магазин
                 <ul>
                     <li>
-                        <a href="/products" class="link with_leaves">Продукты</a>
-                        <a href="/pay" class="link with_leaves">Оплата заказов</a>
-                        <a href="/payback" class="link with_leaves">Возврат</a>
-                        <a href="/delivery" class="link with_leaves">Способ доставки</a>
+                        <a href="/shop/all" class="link with_leaves">Продукты</a>
+                        <a href="/faq/pay" class="link with_leaves">Оплата заказов</a>
+                        <a href="/faq/payback" class="link with_leaves">Возврат</a>
+                        <a href="/faq/delivery" class="link with_leaves">Способ доставки</a>
                     </li>
                 </ul>
             </li>

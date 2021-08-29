@@ -8,16 +8,16 @@
                 <a href="/about" class="footer__link with_leaves">О компании</a>
                 <a href="/opportinues" class="footer__link with_leaves">Возможности</a>
                 <a href="/history" class="footer__link with_leaves">История Greenway</a>
-                <a href="/list#faq" class="footer__link with_leaves">Ответы на вопросы</a>
+                <a href="/faq" class="footer__link with_leaves">Ответы на вопросы</a>
             </div>
             <div class="link_block">
                 <!-- <h1 class="footer__title">
                         Интернет-магазин
                     </h1> -->
-                <a href="/products" class="footer__link with_leaves">Продукты</a>
-                <a href="/support/payment" class="footer__link with_leaves">Оплата заказов</a>
-                <a href="/support/payback" class="footer__link with_leaves">Возврат</a>
-                <a href="/support/delivery" class="footer__link with_leaves">Способ доставки</a>
+                <a href="/shop/all" class="footer__link with_leaves">Продукты</a>
+                <a href="/faq/payment" class="footer__link with_leaves">Оплата заказов</a>
+                <a href="/faq/payback" class="footer__link with_leaves">Возврат</a>
+                <a href="/faq/delivery" class="footer__link with_leaves">Способ доставки</a>
             </div>
             <div class="link_block">
                 <!-- <h1 class="footer__title">
