@@ -32,6 +32,10 @@ switch($method) {
     case 'close_cookie':
         $_SESSION['user']->cookie_accepted = true;
         break;
+    case 'change_theme_consultant':
+        $theme = $_GET['theme'];
+        $_SESSION['user']->consultant_theme = $theme;
+        break;
     default: echo json_encode(['type'=>'error', 'text'=>'case not found']);
 }
 

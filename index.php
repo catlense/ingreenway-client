@@ -256,13 +256,13 @@
                 </li>
                 <li>
                     <a href="/shop/brands/aquamagic">
-                        <img src="/static/images/brands/aquamagic.png" alt="">
+                        <img src="/static/images/brands/Aquamagic.png" alt="">
                         <p>Изделия из микроволокна</p>
                     </a>
                 </li>
                 <li>
                     <a href="/shop/brands/aquamatic">
-                        <img src="/static/images/brands/aquamatic.png" alt="">
+                        <img src="/static/images/brands/Aquamatic.png" alt="">
                         <p>Системы для уборки</p>
                     </a>
                 </li>
@@ -292,7 +292,7 @@
                 </li>
                 <li>
                     <a href="/shop/brands/active">
-                        <img src="/static/images/brands/healthberry.png" alt="">
+                        <img src="/static/images/brands/Healthberry.png" alt="">
                         <p>Функциональные напитки и леденцы</p>
                     </a>
                 </li>
@@ -328,7 +328,7 @@
                 </li>
                 <li>
                     <a href="/shop/brands/active">
-                        <img src="/static/images/brands/sharme_dent.png" alt="">
+                        <img src="/static/images/brands/Sharme_dent.png" alt="">
                         <p>Натуральные зубные пасты</p>
                     </a>
                 </li>

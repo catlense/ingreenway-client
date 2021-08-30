@@ -4,6 +4,7 @@ document.querySelector('.right-link.search').onclick = () => {
 }
 document.querySelector('.close-search').onclick = () => {
     document.querySelector('.search-popup').classList.remove('active')
+    document.body.style.overflowY = 'auto'
 }
 document.querySelector('.fa-search').onclick = () => {
     window.location.href = `/search?text=${document.querySelector('.search-text').value}`
