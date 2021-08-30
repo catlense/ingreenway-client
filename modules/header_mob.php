@@ -145,7 +145,7 @@
                     <p>Дом</p>
                 </div>
                 <div class="search-block">
-                    <i class="fas fa-house-user"></i>
+                    <i class="fas fa-pump-soap"></i>
                     <p class="mini">Красота и уход</p>
                 </div>
                 <div class="search-block">
@@ -157,7 +157,7 @@
                     <p>Питание</p>
                 </div>
                 <div class="search-block">
-                    <i class="fas fa-utensils"></i>
+                    <i class="fab fa-slack"></i>
                     <p>Текстиль</p>
                 </div>
                 <div class="search-block">
