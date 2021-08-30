@@ -33,13 +33,20 @@
 }
 
 .language-container select {
-  width: 280px;
+  width: 100%;
   height: 40px;
   border: 1px solid #eee;
   font-size: 14px;
   margin-top: 10px;
   padding-left: 10px;
   max-width: 100%;
+  background: white;
+}
+
+@media (min-width: 768px) {
+  .language-container select {
+    width: 280px;
+  }
 }
 
 .language-container button {

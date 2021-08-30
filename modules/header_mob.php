@@ -134,6 +134,42 @@
     </div>
     <div class="search-popup">
         <div class="close-search">&times;</div>
+        <div class="container">
+            <div class="input-container">
+                <input type="text" placeholder="Поиск среди 5 000 товаров" class="font-gotham search-text">
+                <button class="fas fa-search"></button>
+            </div>
+            <div class="icons font-gotham">
+                <div class="search-block">
+                    <i class="fas fa-house-user"></i>
+                    <p>Дом</p>
+                </div>
+                <div class="search-block">
+                    <i class="fas fa-house-user"></i>
+                    <p class="mini">Красота и уход</p>
+                </div>
+                <div class="search-block">
+                    <i class="fas fa-hospital-user"></i>
+                    <p>Здоровье</p>
+                </div>
+                <div class="search-block">
+                    <i class="fas fa-utensils"></i>
+                    <p>Питание</p>
+                </div>
+                <div class="search-block">
+                    <i class="fas fa-utensils"></i>
+                    <p>Текстиль</p>
+                </div>
+                <div class="search-block">
+                    <i class="fas fa-coffee"></i>
+                    <p>Чаи и напитки</p>
+                </div>
+                <div class="search-block">
+                    <i class="fas fa-copyright"></i>
+                    <p>Бренды</p>
+                </div>
+            </div>
+        </div>
     </div>
     <link rel="stylesheet" href="/styles/common/PopupSearchMob.css">
     <script src="/js/frontend/search_popup-mob.js"></script>
