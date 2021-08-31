@@ -1,0 +1,52 @@
+.eco-slide .main_img {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 43%;
+  top: 0;
+  z-index: -1;
+}
+
+.eco-slide .main_img.eco-1 {
+  background: url(/landings/images/eco-1.jpg) 70%;
+  background-size: cover;
+}
+
+.eco-slide .content {
+  padding: 80px 30px 30px 60px;
+  color: #323232;
+}
+
+.eco-slide .content p.subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: -64px;
+  margin-top: 24px;
+}
+
+.eco-slide .content .textSwiperF {
+  width: 50%;
+  margin-left: 0;
+  position: relative;
+}
+
+.eco-slide .content .textSwiperF .swiper-wrapper {
+  width: 100%;
+  min-height: 440px;
+  max-height: 600px;
+  height: 65vh;
+}
+
+.eco-slide .content .swiper-slide h1 {
+  font-size: 80px;
+  line-height: 1.1;
+  font-weight: bold;
+  padding-right: 30px;
+}
+
+.eco-slide .content .swiper-slide p {
+  line-height: 2;
+  font-size: 16px;
+  padding-right: 30px;
+}
+/*# sourceMappingURL=page_eco.css.map */

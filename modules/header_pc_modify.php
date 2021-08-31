@@ -2,7 +2,7 @@
     <div class="container">
         <div class="up-line font-gotham">
             <div class="left_links">
-                <a href="/greenway">Компания</a>
+                <a href="/contacts">Контакты</a>
                 <a href="/news">Новости</a>
                 <a href="/search?text=Новинки">Новинки</a>
                 <a href="/search?text=Акции">Акции</a>
@@ -42,12 +42,12 @@
     <div class="categories">
         <div class="container font-gotham">
             <ul>
-                <li><a href="/greenway">Компания</a></li>
+                <li><a href="/contacts">Контакты</a></li>
                 <li><a href="/shop/home">Факты и миссия</a></li>
                 <li><a href="/shop/beauty">Возможности</a></li>
                 <li><a href="/shop/">Продукция</a></li>
                 <li><a href="/eco">Экопроекты</a></li>
-                <li><a href="/news" class="<?php echo $_SERVER['REQUEST_URI'] == '/news' ? 'active':'';?>">Новости</a></li>
+                <li><a href="/news" class="<?php echo $_SERVER['REQUEST_URI'] == '/news' ? 'active' : ''; ?>">Новости</a></li>
             </ul>
         </div>
     </div>

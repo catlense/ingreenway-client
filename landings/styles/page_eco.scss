@@ -1,0 +1,49 @@
+@import "../../styles/common/vars.scss";
+.eco-slide {
+    .main_img {
+        position: absolute;
+        right: 0;
+        height: 100%;
+        width: 43%;
+        top: 0;
+        z-index: -1;
+        &.eco-1 {
+            background: url(/landings/images/eco-1.jpg) 70%;
+            background-size: cover;
+        }
+    }
+    .content {
+        padding: 80px 30px 30px 60px;
+        color: $blackText;
+        p.subtitle {
+            font-weight: 500;
+            font-size: 16px;
+            margin-left: -64px;
+            margin-top: 24px;
+        }
+        .textSwiperF {
+            width: 50%;
+            margin-left: 0;
+            position: relative;
+            .swiper-wrapper {
+                width: 100%;
+                min-height: 440px;
+                max-height: 600px;
+                height: 65vh;
+            }
+        }
+        .swiper-slide {
+            h1 {
+                font-size: 80px;
+                line-height: 1.1;
+                font-weight: bold;
+                padding-right: 30px;
+            }
+            p {
+                line-height: 2;
+                font-size: 16px;
+                padding-right: 30px;
+            }
+        }
+    }
+}

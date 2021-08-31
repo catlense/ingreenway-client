@@ -22,6 +22,12 @@
                             office@greenway.group
                         </a>
                     </li>
+                    <li>
+                        <a href="/contacts">
+                            <i class="far fa-compass"></i>
+                            Контакты
+                        </a>
+                    </li>
                 </ul>
             </li>
             <li>

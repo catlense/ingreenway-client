@@ -1,5 +1,7 @@
 let flashHeight = document.querySelector('.flash') ? document.querySelector('.flash').clientHeight : 0
-let headerHeight = window.innerWidth < 890 ? document.querySelector('header.mobile').clientHeight : document.querySelector('header.pc').clientHeight
+if (document.querySelector('header.mobile') || document.querySelector('header.pc')) {
+    var headerHeight = window.innerWidth < 890 ? document.querySelector('header.mobile').clientHeight : document.querySelector('header.pc').clientHeight
+}
 let breadcrumb = document.querySelector('.breadcrumb')
 
 if (breadcrumb) {
