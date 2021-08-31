@@ -112,6 +112,47 @@
             <?php include 'modules/popup__Language.php'; ?>
         </div>
     </div>
+    <div class="search-popup">
+        <div class="close-search">&times;</div>
+        <div class="container">
+            <div class="input-container">
+                <input type="text" placeholder="Поиск среди более 300 эко-продуктов" class="font-gotham search-text">
+                <button class="fas fa-search"></button>
+            </div>
+            <div class="icons font-gotham">
+                <div class="search-block">
+                    <i class="fas fa-house-user"></i>
+                    <p>Дом</p>
+                </div>
+                <div class="search-block">
+                    <i class="fas fa-pump-soap"></i>
+                    <p class="mini">Красота и уход</p>
+                </div>
+                <div class="search-block">
+                    <i class="fas fa-hospital-user"></i>
+                    <p>Здоровье</p>
+                </div>
+                <div class="search-block">
+                    <i class="fas fa-utensils"></i>
+                    <p>Питание</p>
+                </div>
+                <div class="search-block">
+                    <i class="fab fa-slack"></i>
+                    <p>Текстиль</p>
+                </div>
+                <div class="search-block">
+                    <i class="fas fa-coffee"></i>
+                    <p>Чаи и напитки</p>
+                </div>
+                <div class="search-block">
+                    <i class="fas fa-copyright"></i>
+                    <p>Бренды</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <link rel="stylesheet" href="/styles/common/PopupSearchMob.css">
+    <script src="/js/frontend/search_popup-mob.js"></script>
 </header>
 <link rel="stylesheet" href="/styles/common/ModuleHeaderMob.css">
 <script src="/js/ui/mobile-header.js"></script>

@@ -136,7 +136,7 @@
         <div class="close-search">&times;</div>
         <div class="container">
             <div class="input-container">
-                <input type="text" placeholder="Поиск среди 5 000 товаров" class="font-gotham search-text">
+                <input type="text" placeholder="Искать среди более 300 эко-продуктов" class="font-gotham search-text">
                 <button class="fas fa-search"></button>
             </div>
             <div class="icons font-gotham">
