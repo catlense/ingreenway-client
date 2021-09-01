@@ -11,11 +11,17 @@
     <link rel="stylesheet" href="/landings/styles/common.css">
     <link rel="stylesheet" href="/landings/styles/page_eco.css">
 
+    <link rel="stylesheet" href="/static/fonts/fontawesome/all.css">
+    <link rel="stylesheet" href="/static/fonts/mdi/materialdesignicons.min.css">
+
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
 <body>
-    <?php include 'landings/header_pc.php'; ?>
+    <?php 
+    include 'landings/header_pc.php';
+    include 'modules/header_mob.php';
+    ?>
 
     <div class="container">
         <?php
@@ -65,7 +71,7 @@
                                 <p>В последующем, идея с посадкой деревьев переросла в масштабный проект «Greenway сажает сосны». Все больше партнеров компании принимает участие в этой акции, выкладывая в социальные сети фотографии с хэштегом #greenwayсажаетсосны, тем самым поддерживая этот проект.</p>
                             </div>
                         </div>
-                        <div class="swiper-scrollbar2"></div>
+                        <div class="swiper-scrollbar"></div>
                     </div>
                 </div>
             </div>
@@ -76,13 +82,20 @@
         </div>
     </div>
 
-    <?php include 'modules/popup__Join.php'; ?>
+    <?php 
+    include 'modules/popup__Join.php';
+    include 'modules/popup__Cart.php';
+    ?>
 
     <!-- Footer PC css -->
     <link rel="stylesheet" href="/styles/common/ModuleFooterPC.css">
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"> </script>
     <script src="/landings/scripts/page_eco.js"></script>
+
+    <script>
+        document.querySelector('.breadcrumb').style.marginTop = document.querySelector('.breadcrumb').getAttribute('mt') + 40 + 'px'
+    </script>
 
 </body>
 

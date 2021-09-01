@@ -58,7 +58,7 @@ openMenu.onclick = () => {
     }
 }
 
-if (document.querySelectorAll('.categories')[1].offsetHeight != 0) {
+if (document.querySelectorAll('.categories')[1] && document.querySelectorAll('.categories')[1].offsetHeight !== 0) {
     mobileMenu.style.marginTop = '-50px'
 }
 
