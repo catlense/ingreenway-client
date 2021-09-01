@@ -2,7 +2,7 @@
     <div class="container">
         <div class="up-line font-gotham">
             <div class="left_links">
-                <a href="/contacts">Контакты</a>
+                <a href="/list">Контакты</a>
                 <a href="/news">Новости</a>
                 <a href="/search?text=Новинки">Новинки</a>
                 <a href="/search?text=Акции">Акции</a>

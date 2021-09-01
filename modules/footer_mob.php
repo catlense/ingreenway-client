@@ -23,7 +23,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/contacts">
+                        <a href="/list">
                             <i class="far fa-compass"></i>
                             Контакты
                         </a>

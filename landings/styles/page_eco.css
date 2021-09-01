@@ -12,6 +12,11 @@
   background-size: cover;
 }
 
+.eco-slide .main_img.eco-2 {
+  background: url(/landings/images/eco-2.jpg) 70%;
+  background-size: cover;
+}
+
 .eco-slide .content {
   padding: 80px 30px 30px 60px;
   color: #323232;
@@ -33,8 +38,25 @@
 .eco-slide .content .textSwiperF .swiper-wrapper {
   width: 100%;
   min-height: 440px;
-  max-height: 600px;
-  height: 65vh;
+  max-height: 700px;
+  height: 66vh;
+}
+
+.eco-slide .content .textSwiperS {
+  width: 50%;
+  margin-left: 0;
+  position: relative;
+}
+
+.eco-slide .content .textSwiperS .swiper-wrapper {
+  width: 100%;
+  min-height: 440px;
+  max-height: 810px;
+  height: 160vh;
+}
+
+.eco-slide .content .textSwiperS .swiper-wrapper .swiper-slide {
+  height: unset;
 }
 
 .eco-slide .content .swiper-slide h1 {
@@ -48,5 +70,72 @@
   line-height: 2;
   font-size: 16px;
   padding-right: 30px;
+}
+
+.eco-slide button {
+  position: absolute;
+  left: 50px;
+  bottom: 5%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 3px;
+  border-radius: 30px;
+  height: 38px;
+  width: 200px;
+  border: none;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #323232;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+  z-index: 9999999;
+}
+
+.eco-slide button svg {
+  height: 10px;
+  width: 10px;
+  fill: #74c044;
+  margin-right: 15px;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  padding-top: 1px;
+}
+
+.eco-slide button:hover {
+  color: #74c044;
+}
+
+.eco-slide button:hover svg {
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
+}
+
+.screen {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+}
+
+.screen:last-child {
+  top: 100%;
+}
+
+footer {
+  width: calc(100% + 30px) !important;
+  margin-left: -30px;
+  margin-top: 80px;
 }
 /*# sourceMappingURL=page_eco.css.map */
