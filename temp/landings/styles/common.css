@@ -1,3 +1,13 @@
+body {
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .breadcrumb {
+    padding-left: 15px;
+  }
+}
+
 header.landing_pc {
   width: 81px;
   height: 100%;
@@ -10,10 +20,9 @@ header.landing_pc {
       -ms-flex-direction: column;
           flex-direction: column;
   position: fixed;
-  z-index: 9;
 }
 
-@media (max-width: 890px) {
+@media (max-width: 768px) {
   header.landing_pc {
     visibility: hidden;
     display: none;
@@ -231,6 +240,25 @@ header.landing_pc .openPopupJB .topRightButton__icon {
   position: absolute;
   left: 38px;
   top: 39px;
+}
+
+.container {
+  padding-top: 30px;
+  width: calc(100% - 140px);
+  max-width: 1530px;
+  z-index: -99;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.categories {
+  display: none;
 }
 
 @-webkit-keyframes rotate {

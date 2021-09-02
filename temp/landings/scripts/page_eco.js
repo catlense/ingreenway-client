@@ -20,6 +20,17 @@ let swiper_s = new Swiper(".textSwiperS", {
     mousewheel: true,
 });
 
+let swiperPages = new Swiper('.swiperPage', {
+    direction: "vertical",
+    slidesPerView: 1,
+    slidesPerGroup: 1,
+    mousewheel: true,
+})
+
+// document.querySelectorAll('.swiper').forEach(element => {
+//     element.style.maxHeight = window.innerHeight + 'px'
+// })
+
 if (window.innerWidth < 768) {
     swiper_s.destroy()
     swiper.destroy()

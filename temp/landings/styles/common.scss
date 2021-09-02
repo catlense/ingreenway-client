@@ -1,4 +1,14 @@
 @import "../../styles/common/vars.scss";
+body {
+    margin: 0 auto;
+}
+
+@media(max-width: 768px) {
+    .breadcrumb {
+        padding-left: 15px;
+    }
+}
+
 header.landing_pc {
     width: 81px;
     height: 100%;
@@ -6,8 +16,7 @@ header.landing_pc {
     display: flex;
     flex-direction: column;
     position: fixed;
-    z-index: 9;
-    @media(max-width: 890px) {
+    @media(max-width: 768px) {
         visibility: hidden;
         display: none;
     }
@@ -166,6 +175,23 @@ header.landing_pc {
             top: 39px;
         }
     }
+}
+
+.container {
+    padding-top: 30px;
+    // padding-left: 110px;
+    width: calc(100% - 140px);
+    max-width: 1530px;
+    z-index: -99;
+    @media(max-width: 768px) {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.categories {
+    display: none;
 }
 
 @keyframes rotate {
