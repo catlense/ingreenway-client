@@ -813,8 +813,8 @@
     <!--		<div class="modal" id="thank-you">-->
     <!--			<div class="modal__wrapper">-->
     <!--				<div class="modal__content">-->
-    <!--					<div class="modal__cover thankYouCover"><svg class="icon"><use xlink:href="/i/2020/icons-sprite-corporate.svg#icon-thank-you"></use></svg></div>-->
-    <!--					<a href="#" class="modal__close modal__close&#45;&#45;color-white" data-js-modal-close><svg class="icon"><use xlink:href="/i/2020/icons-sprite-general.svg#icon-close-round"></use></svg></a>-->
+    <!--					<div class="modal__cover thankYouCover"><svg class="icon"><use xlink:href="https://mygreenway.com/i/2020/icons-sprite-corporate.svg#icon-thank-you"></use></svg></div>-->
+    <!--					<a href="#" class="modal__close modal__close&#45;&#45;color-white" data-js-modal-close><svg class="icon"><use xlink:href="https://mygreenway.com/i/2020/icons-sprite-general.svg#icon-close-round"></use></svg></a>-->
     <!--					<div class="modal__body">-->
     <!--						<h3>Спасибо!</h3>-->
     <!--						<p class="font-size&#45;&#45;normal font-color&#45;&#45;gray mt-2">Ваши данные направлены на&nbsp;обработку, в&nbsp;ближайшее время наш менеджер свяжется с&nbsp;Вами для уточнения деталей</p>-->
@@ -890,7 +890,7 @@
                         <use xlink:href="#icon-close-round"></use>
                     </svg></a>
                 <div class="modal__body modal__body--nogap">
-                    <video class="modalVideo" data-object-fit="cover" controls="" muted="" loop="" preload="none" poster="/i/2020/corporate/video-cover.jpg">
+                    <video class="modalVideo" data-object-fit="cover" controls="" muted="" loop="" preload="none" poster="https://mygreenway.com/i/2020/corporate/video-cover.jpg">
                         <source src="https://greenwaystart.com/company/video-promo/MaxMastersTurkey2019-Film-SMALL.mp4" type="video/mp4">
                     </video>
                 </div>
