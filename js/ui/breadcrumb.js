@@ -7,5 +7,5 @@ if (document.querySelector('header.mobile') || document.querySelector('header.pc
 let breadcrumb = document.querySelector('.breadcrumb')
 
 if (breadcrumb) {
-    breadcrumb.style.marginTop = flashHeight + headerHeight + 9 + 'px'
+    breadcrumb.style.paddingTop = flashHeight + headerHeight + 9 + 'px'
 }

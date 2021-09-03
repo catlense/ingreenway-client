@@ -25,5 +25,3 @@ RewriteRule rules tp_rules.php [L,QSA]
 RewriteRule terms tp_terms.php [L,QSA]
 
 RewriteRule condition-reg tp_condition-reg.php [L,QSA]
-
-RewriteRule eco landing_eco.php [L,QSA]
