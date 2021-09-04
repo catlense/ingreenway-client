@@ -1,5 +1,5 @@
 <div class="popup__support-pulsate">
-    <div class="popup__support-opener"></div>
+    <div class="popup__support-opener <?=(date('H') < 23 && date('H') > 7) ? 'online' : '';?>"></div>
     <div class="callpy_custom_mobile_photo__pulse-1"></div>
     <div class="callpy_custom_mobile_photo__pulse-2"></div>
 </div>

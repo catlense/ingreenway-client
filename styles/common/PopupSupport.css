@@ -70,6 +70,21 @@
   z-index: -1;
 }
 
+.popup__support-opener.online::before {
+  background-color: #74c044;
+}
+
+.popup__support-opener::before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  border-radius: 50px;
+  background-color: #dbdbdb;
+  position: absolute;
+  bottom: 2px;
+  left: 2px;
+}
+
 .popup__support {
   border-radius: 8px;
   background: #fff;

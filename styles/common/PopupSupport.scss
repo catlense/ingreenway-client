@@ -59,9 +59,21 @@
         transition-timing-function: ease-in-out;
         z-index: -1;
     }
-    // &:hover::after {
-    //     opacity: .64;
-    // }
+    &.online {
+        &::before {
+            background-color: $primaryGreenColor;
+        }
+    }
+    &::before {
+        content: "";
+        width: 18px;
+        height: 18px;
+        border-radius: 50px;
+        background-color: rgb(219, 219, 219);
+        position: absolute;
+        bottom: 2px;
+        left: 2px;
+    }
 }
 
 .popup__support {
