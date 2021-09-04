@@ -1,0 +1,35 @@
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.fancybox-slide.fancybox-slide--ajax {
+}
+.fancybox-slide--ajax>div {
+  overflow:hidden;
+  padding:0;
+  margin:0;
+  width  : 90%;
+  height : auto;
+  max-width  : 1440px;
+  max-height : 90%;
+  margin: 0;
+}
+.fancybox-slide--ajax>div.newsMoreContainer {
+  overflow:auto;
+}
+
+@media (max-width: 767px) {
+  .fancybox-slide--ajax>div {
+    width  : 100%;
+  }
+}
+.fancybox-slide--ajax .fancybox-loading {
+    margin-top: -25px;
+    margin-left: -25px;
+    height:100px;
+    width:100px;
+    border-top-color: #96b613;
+}
+
