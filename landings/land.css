@@ -16,7 +16,6 @@ header.mobile .mobile-menu .selectLanguage {
     bottom: 0 !important;
 }
 
-.joinBlock .openNextScreen {
-    z-index: 99999999;
-    position: relative;
+.right-link.cart {
+    display: none;
 }
