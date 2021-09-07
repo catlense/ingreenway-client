@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+    box-sizing: unset;
+}
+
+header.mobile .right-links .menu {
+    position: static;
+}
+
+header.mobile .categories {
+    display: none;
+}
+
+header.mobile .mobile-menu .selectLanguage {
+    bottom: 0 !important;
+}
+
+.joinBlock .openNextScreen {
+    z-index: 99999999;
+    position: relative;
+}
