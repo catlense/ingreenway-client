@@ -16,6 +16,10 @@ header.mobile .mobile-menu .selectLanguage {
     bottom: 0 !important;
 }
 
+.topSearch {
+    display: none;
+}
+
 .right-link.cart {
     display: none;
 }
