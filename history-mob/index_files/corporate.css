@@ -7390,14 +7390,11 @@ p:first-child {
 }
 
 .joinButton {
-    will-change: transform;
-    position: relative;
-    display: inline-block;
-    width: 160px;
-    height: 160px;
-    -webkit-transition: transform 0.3s cubic-bezier(0, 0.5, 0.5, 1);
-    transition: transform 0.3s cubic-bezier(0, 0.5, 0.5, 1);
+    z-index: -1;
 }
+
+
+/*
 
 .joinButton__text {
     width: 100%;
@@ -7448,7 +7445,7 @@ p:first-child {
         transform: scale(1);
         opacity: 1;
     }
-}
+} */
 
 
 /* Enter Button / Office Button */

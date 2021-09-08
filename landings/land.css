@@ -257,3 +257,9 @@ header.landing_pc .openPopupJB .topRightButton__icon {
     left: 38px;
     top: 39px;
 }
+
+@media(max-width: 768px) {
+    .joinBlock .second_screen .selection .blocks .block button {
+        width: 180px !important;
+    }
+}
