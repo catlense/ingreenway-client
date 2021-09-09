@@ -7,4 +7,4 @@ I am doing full development of this project and building it from A to Z
 - Mail: work@catlense.ru
 - Site: https://catlense.ru
 
-###### Site url: https://ingreenway.club
+###### Site url: https://mygreenway.shop
