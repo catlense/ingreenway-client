@@ -1,7 +1,7 @@
 *,
 *::after,
 *::before {
-    box-sizing: unset;
+    box-sizing: unset !important;
 }
 
 header.mobile .right-links .menu {
@@ -22,6 +22,18 @@ header.mobile .mobile-menu .selectLanguage {
 
 .right-link.cart {
     display: none;
+}
+
+.joinBlock .second_screen .selection h1 {
+    margin-top: 20px;
+}
+
+.joinBlock .second_screen .selection p {
+    margin-bottom: 20px;
+}
+
+.joinBlock .second_screen .selection .blocks .block button {
+    width: 190px !important;
 }
 
 header.landing_pc {
