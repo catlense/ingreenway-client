@@ -5,7 +5,7 @@
                 <!-- <h1 class="footer__title">
                         Информация
                     </h1> -->
-                <a href="/about" class="footer__link with_leaves">О компании</a>
+                <a href="/company" class="footer__link with_leaves">О компании</a>
                 <a href="/opportinues" class="footer__link with_leaves">Возможности</a>
                 <a href="/history" class="footer__link with_leaves">История Greenway</a>
                 <a href="/faq" class="footer__link with_leaves">Ответы на вопросы</a>
