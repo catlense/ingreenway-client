@@ -24,6 +24,10 @@ header.mobile .mobile-menu .selectLanguage {
     display: none;
 }
 
+.footerLinks li ul li {
+    padding: 8px 0px 5px 40px;
+}
+
 .joinBlock .second_screen .selection h1 {
     margin-top: 20px;
 }
